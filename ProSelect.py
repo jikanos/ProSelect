@@ -130,6 +130,9 @@ class ProSelectApp:
         header = tk.Frame(parent, bg=self.BG)
         header.pack(fill="x")
         tk.Label(header, image=self.logo, bg=self.BG, borderwidth=0).pack(side="right", anchor="n")
+        status = self.label(parent, "", 11, bold=True)
+        status.pack(side="bottom", anchor="w")
+        self.refresh_connection_status(status)
         return header
 
     def make_start(self):
@@ -138,9 +141,6 @@ class ProSelectApp:
         outer.pack(fill="both", expand=True)
         header = self.page_header(outer)
         self.label(header, "ProSelect / ПРОФОТБОР", 13, self.ACCENT, True).pack(side="left")
-        status = self.label(outer, "", 11, bold=True)
-        status.pack(side="bottom", anchor="w")
-        self.refresh_connection_status(status)
         self.label(outer, "Система проверки знаний", 28, bold=True).pack(anchor="w", pady=(12, 5))
         self.label(outer, "Тест разработан командой АНО «Де-Фриз».",
                    11, self.MUTED).pack(anchor="w", pady=(0, 32))
@@ -205,24 +205,25 @@ class ProSelectApp:
         details = tk.Frame(header, bg=self.BG)
         details.pack(side="left", anchor="n")
         self.label(details, "ProSelect / ПРОФОТБОР", 12, self.ACCENT, True).pack(anchor="w")
-        progress = f"Вопрос {self.adaptive_chunk_index+1} из 3 на уровне {self.adaptive_level}"
-        self.label(details, progress, 11, self.MUTED).pack(anchor="w",pady=(22,8))
-        self.label(details, f"{q['topic']}  ·  Уровень {q['level']}  ·  {q['id']}", 12, self.ACCENT).pack(anchor="w")
+        progress = tk.Frame(details, bg=self.BG)
+        progress.pack(anchor="w", pady=(22, 8))
+        self.label(progress, q['id'], 11, self.MUTED).pack(side="left")
+        self.label(progress, str(self.adaptive_level), 11, self.ACCENT, bold=True).pack(side="left", padx=(12, 0))
+        bottom=tk.Frame(main,bg=self.BG)
+        bottom.pack(side="bottom",fill="x",pady=(20,0))
+        self.button(bottom,"Ответить →",self.submit).pack(side="right")
+        self.label(bottom,"Ответ сохраняется после нажатия кнопки",10,self.MUTED).pack(side="left")
         question=tk.Message(main,text=q["text"],width=820,bg=self.BG,fg=self.TEXT,font=("Segoe UI",18,"bold"))
         question.pack(anchor="w",fill="x",pady=(18,22))
         choices=tk.Frame(main,bg=self.BG)
         choices.pack(fill="x")
         for i, original_index in enumerate(self.display_order):
             option=q["options"][original_index]
-            row=tk.Radiobutton(choices,text=f"{LETTERS[i]}. {option}",variable=self.selected,value=i,
+            row=tk.Radiobutton(choices,text=option,variable=self.selected,value=i,
                                font=("Segoe UI",12),bg=self.PANEL,fg=self.TEXT,selectcolor="#374151",
                                activebackground=self.PANEL,activeforeground=self.TEXT,
                                indicatoron=True,justify="left",anchor="w",wraplength=730,padx=17,pady=12)
             row.pack(fill="x",pady=4)
-        bottom=tk.Frame(main,bg=self.BG)
-        bottom.pack(side="bottom",fill="x",pady=(20,0))
-        self.button(bottom,"Ответить →",self.submit).pack(side="right")
-        self.label(bottom,"Ответ сохраняется после нажатия кнопки",10,self.MUTED).pack(side="left")
 
     def submit(self):
         value=self.selected.get()
