@@ -149,6 +149,8 @@ class ProSelectApp:
                               insertbackground="white", relief="flat")
         name_entry.pack(fill="x", ipady=9, pady=(8, 23))
         name_entry.focus_set()
+        self.label(outer, "У каждого вопроса только один правильный вариант ответа.",
+                   11, self.MUTED).pack(anchor="w", pady=(0, 16))
         self.button(outer, "Начать тестирование", self.start).pack(anchor="w")
 
     def refresh_connection_status(self, label):
@@ -274,7 +276,7 @@ class ProSelectApp:
         self.label(header, "Тестирование завершено", 27, bold=True).pack(side="left", anchor="n")
         answers=self.session["answers"]
         correct=sum(a["is_correct"] for a in answers)
-        self.label(main,f"Верных ответов: {correct} из {len(answers)}",20,self.ACCENT,True).pack(anchor="w",pady=(24,18))
+        self.label(main,f"Итоговый балл: {correct}",20,self.ACCENT,True).pack(anchor="w",pady=(24,18))
         by_topic={}
         for a in answers:
             by_topic.setdefault(a["topic"],[0,0])
@@ -286,15 +288,7 @@ class ProSelectApp:
             self.label(main,"Результат адаптивного прохождения:",12,bold=True).pack(anchor="w",pady=(16,6))
             for item in self.session["topic_results"]:
                 self.label(main,f"{item['topic']}: пройден уровень {item['last_passed_level']} · {item['stop_reason']}",10,self.MUTED).pack(anchor="w")
-        self.label(main,"Результаты записаны в:\n"+str(self.filebase)+".json\n"+str(self.filebase)+".csv",10,self.MUTED,wrap=850).pack(anchor="w",pady=(25,22))
         self.button(main,"Новое тестирование",self.make_start).pack(anchor="w")
-        self.button(main,"Открыть папку результатов",self.open_results,False).pack(anchor="w",pady=(12,0))
-
-    def open_results(self):
-        import subprocess
-        if sys.platform.startswith("win"):os.startfile(str(self.out))
-        elif sys.platform=="darwin":subprocess.Popen(["open",str(self.out)])
-        else:subprocess.Popen(["xdg-open",str(self.out)])
 
     def close(self):
         if self.session and self.session["status"]=="in_progress":
