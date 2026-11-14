@@ -1,0 +1,481 @@
+{
+  "session_id": "f66bd206-2982-4cf6-8c9b-079a406df78f",
+  "candidate": "Тестовый участник 30",
+  "started_at": "2026-11-14T04:19:10.023996+00:00",
+  "finished_at": "2026-11-14T04:26:36.023996+00:00",
+  "status": "completed",
+  "mode": "Адаптивный (3 вопроса на уровень)",
+  "topics": [
+    "Компьютерная грамотность",
+    "Механика и инструменты",
+    "Технический английский",
+    "Физика и электроника"
+  ],
+  "bank_source": "Реестр Профотбор, выгрузка 2026-11-12",
+  "answers": [
+    {
+      "code": "КГ-007",
+      "topic": "Компьютерная грамотность",
+      "level": 99,
+      "question": "Какое устройство используется для вывода изображения с компьютера?",
+      "options": [
+        "Принтер",
+        "Сканер",
+        "Монитор",
+        "Клавиатура"
+      ],
+      "selected_index": 0,
+      "selected_letter": "Г",
+      "selected_text": "Принтер",
+      "correct_index": 2,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:19:15.023996+00:00"
+    },
+    {
+      "code": "КГ-003",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Какой значок обычно обозначает поиск в компьютерных программах?",
+      "options": [
+        "Шестерёнка",
+        "Корзина",
+        "Папка",
+        "Лупа"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 3,
+      "correct_letter": "В",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:19:45.023996+00:00"
+    },
+    {
+      "code": "КГ-005",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Для чего предназначен значок корзины на рабочем столе Windows?",
+      "options": [
+        "Для хранения установленных программ",
+        "Для просмотра скачанных файлов",
+        "Для хранения удалённых файлов",
+        "Для просмотра открытых документов"
+      ],
+      "selected_index": 2,
+      "selected_letter": "А",
+      "selected_text": "Для хранения удалённых файлов",
+      "correct_index": 2,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:19:49.023996+00:00"
+    },
+    {
+      "code": "МИ-009",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Какую из перечисленных лент используют для электрической изоляции проводов?",
+      "options": [
+        "Малярную бумажную ленту",
+        "Упаковочную клейкую ленту",
+        "Электроизоляционную ПВХ-ленту",
+        "Двустороннюю монтажную ленту"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Г",
+      "selected_text": "Электроизоляционную ПВХ-ленту",
+      "correct_index": 2,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:20:14.023996+00:00"
+    },
+    {
+      "code": "МИ-003",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Какую отвёртку используют для винта с прямым шлицем в форме знака «−»?",
+      "options": [
+        "Крестовую отвёртку (Phillips)",
+        "Звёздчатую отвёртку (Torx)",
+        "Шестигранную отвёртку (HEX)",
+        "Плоскую (шлицевую) отвёртку"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Б",
+      "selected_text": "Плоскую (шлицевую) отвёртку",
+      "correct_index": 3,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:20:33.023996+00:00"
+    },
+    {
+      "code": "МИ-008",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Для чего используют термоусадочную трубку при соединении электрических проводов?",
+      "options": [
+        "Для увеличения длины проводов",
+        "Для измерения толщины проводов",
+        "Для улучшения проводимости проводов",
+        "Для изоляции соединения проводов"
+      ],
+      "selected_index": 1,
+      "selected_letter": "В",
+      "selected_text": "Для измерения толщины проводов",
+      "correct_index": 3,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:20:51.023996+00:00"
+    },
+    {
+      "code": "МИ-016",
+      "topic": "Механика и инструменты",
+      "level": 2,
+      "question": "Для чего предназначен штангенциркуль?",
+      "options": [
+        "Для проверки горизонтальности поверхности деталей",
+        "Для определения массы металлических деталей",
+        "Для измерения температуры поверхности деталей",
+        "Для измерения наружных и внутренних размеров деталей"
+      ],
+      "selected_index": 0,
+      "selected_letter": "Г",
+      "selected_text": "Для проверки горизонтальности поверхности деталей",
+      "correct_index": 3,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 40,
+      "timestamp": "2026-11-14T04:21:06.023996+00:00"
+    },
+    {
+      "code": "МИ-010",
+      "topic": "Механика и инструменты",
+      "level": 2,
+      "question": "Для чего на шуруповёрте регулируют крутящий момент?",
+      "options": [
+        "Для изменения скорости вращения насадки",
+        "Для ограничения усилия при затяжке винта",
+        "Для переключения направления вращения",
+        "Для надёжной фиксации насадки в патроне"
+      ],
+      "selected_index": 1,
+      "selected_letter": "А",
+      "selected_text": "Для ограничения усилия при затяжке винта",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 40,
+      "timestamp": "2026-11-14T04:21:41.023996+00:00"
+    },
+    {
+      "code": "МИ-025",
+      "topic": "Механика и инструменты",
+      "level": 2,
+      "question": "Что обычно происходит с размерами металлической детали при её нагревании без плавления?",
+      "options": [
+        "Увеличиваются вследствие теплового расширения металла.",
+        "Остаются неизменными до начала плавления металла.",
+        "Уменьшаются вследствие увеличения плотности металла.",
+        "Сначала уменьшаются, затем возвращаются к исходным."
+      ],
+      "selected_index": 3,
+      "selected_letter": "Б",
+      "selected_text": "Сначала уменьшаются, затем возвращаются к исходным.",
+      "correct_index": 0,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 40,
+      "timestamp": "2026-11-14T04:21:56.023996+00:00"
+    },
+    {
+      "code": "ТА-009",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Disable» в настройках программы?",
+      "options": [
+        "Включить выбранную функцию",
+        "Настроить выбранную функцию",
+        "Отключить выбранную функцию",
+        "Перезапустить выбранную функцию"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Б",
+      "selected_text": "Отключить выбранную функцию",
+      "correct_index": 2,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:22:01.023996+00:00"
+    },
+    {
+      "code": "ТА-013",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Save» при работе с документом?",
+      "options": [
+        "Открыть текущий документ",
+        "Сохранить текущий документ",
+        "Распечатать текущий документ",
+        "Закрыть текущий документ"
+      ],
+      "selected_index": 1,
+      "selected_letter": "В",
+      "selected_text": "Сохранить текущий документ",
+      "correct_index": 1,
+      "correct_letter": "В",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:22:13.023996+00:00"
+    },
+    {
+      "code": "ТА-015",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Upload» при работе с файлами?",
+      "options": [
+        "Скачать файл из интернета на устройство",
+        "Отправить файл с устройства на сервер",
+        "Переместить файл в другую папку",
+        "Скопировать файл на другое устройство"
+      ],
+      "selected_index": 1,
+      "selected_letter": "В",
+      "selected_text": "Отправить файл с устройства на сервер",
+      "correct_index": 1,
+      "correct_letter": "В",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:22:22.023996+00:00"
+    },
+    {
+      "code": "ТА-026",
+      "topic": "Технический английский",
+      "level": 2,
+      "question": "Что означает сообщение «Driver installation failed» при подключении оборудования к компьютеру?",
+      "options": [
+        "Драйвер устройства успешно обновлён",
+        "Драйвер устройства ожидает перезапуска",
+        "Не удалось установить драйвер устройства",
+        "Драйвер устройства временно отключён"
+      ],
+      "selected_index": 0,
+      "selected_letter": "Г",
+      "selected_text": "Драйвер устройства успешно обновлён",
+      "correct_index": 2,
+      "correct_letter": "В",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 50,
+      "timestamp": "2026-11-14T04:23:05.023996+00:00"
+    },
+    {
+      "code": "ТА-001",
+      "topic": "Технический английский",
+      "level": 2,
+      "question": "What is a \"keyboard\"?",
+      "options": [
+        "A device for typing text",
+        "A device for displaying images",
+        "A device for printing text",
+        "A device for storing files"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 0,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 50,
+      "timestamp": "2026-11-14T04:23:55.023996+00:00"
+    },
+    {
+      "code": "ТА-020",
+      "topic": "Технический английский",
+      "level": 2,
+      "question": "Что означает сообщение «Access denied» при попытке открыть файл или папку?",
+      "options": [
+        "Файл не найден по указанному пути",
+        "Файл уже открыт другой программой",
+        "Недостаточно прав для доступа",
+        "Недостаточно места для хранения"
+      ],
+      "selected_index": 1,
+      "selected_letter": "А",
+      "selected_text": "Файл уже открыт другой программой",
+      "correct_index": 2,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 50,
+      "timestamp": "2026-11-14T04:24:12.023996+00:00"
+    },
+    {
+      "code": "ФЭ-009",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Какие из перечисленных материалов хорошо проводят электрический ток?",
+      "options": [
+        "Резина и пластик",
+        "Стекло и керамика",
+        "Дерево и бумага",
+        "Медь и алюминий"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Г",
+      "selected_text": "Медь и алюминий",
+      "correct_index": 3,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:24:33.023996+00:00"
+    },
+    {
+      "code": "ФЭ-004",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Какую полярность обычно обозначает красный провод в цепи постоянного тока?",
+      "options": [
+        "Отрицательную полярность",
+        "Положительную полярность",
+        "Нейтральное соединение",
+        "Заземляющее соединение"
+      ],
+      "selected_index": 1,
+      "selected_letter": "А",
+      "selected_text": "Положительную полярность",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:24:51.023996+00:00"
+    },
+    {
+      "code": "ФЭ-015",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Для чего используют паяльник при работе с электронными компонентами?",
+      "options": [
+        "Для измерения электрического напряжения",
+        "Для соединения деталей с помощью припоя",
+        "Для проверки сопротивления проводников",
+        "Для удаления изоляции с проводов"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Б",
+      "selected_text": "Для удаления изоляции с проводов",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:24:56.023996+00:00"
+    },
+    {
+      "code": "ФЭ-028",
+      "topic": "Физика и электроника",
+      "level": 2,
+      "question": "С какой приблизительной скоростью радиоволны распространяются в воздухе?",
+      "options": [
+        "3 000 000 м/с",
+        "30 000 000 м/с",
+        "300 000 000 м/с",
+        "3 000 000 000 м/с"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 2,
+      "correct_letter": "В",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 45,
+      "timestamp": "2026-11-14T04:25:41.023996+00:00"
+    },
+    {
+      "code": "ФЭ-030",
+      "topic": "Физика и электроника",
+      "level": 2,
+      "question": "Какой элемент радиоприёмника предназначен для приёма радиоволн из окружающего пространства?",
+      "options": [
+        "Усилитель сигнала",
+        "Антенна приёмника",
+        "Звуковой динамик",
+        "Источник питания"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Б",
+      "selected_text": "Источник питания",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 45,
+      "timestamp": "2026-11-14T04:26:15.023996+00:00"
+    },
+    {
+      "code": "ФЭ-032",
+      "topic": "Физика и электроника",
+      "level": 2,
+      "question": "Что означает приставка «кило-» перед единицей измерения?",
+      "options": [
+        "Увеличение в 100 раз",
+        "Увеличение в 1000 раз",
+        "Уменьшение в 100 раз",
+        "Уменьшение в 1000 раз"
+      ],
+      "selected_index": 1,
+      "selected_letter": "Г",
+      "selected_text": "Увеличение в 1000 раз",
+      "correct_index": 1,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 45,
+      "timestamp": "2026-11-14T04:26:36.023996+00:00"
+    }
+  ],
+  "topic_results": [
+    {
+      "topic": "Компьютерная грамотность",
+      "last_passed_level": 0,
+      "stop_reason": "На уровне 1: 1/3"
+    },
+    {
+      "topic": "Механика и инструменты",
+      "last_passed_level": 1,
+      "stop_reason": "На уровне 2: 1/3"
+    },
+    {
+      "topic": "Технический английский",
+      "last_passed_level": 1,
+      "stop_reason": "На уровне 2: 0/3"
+    },
+    {
+      "topic": "Физика и электроника",
+      "last_passed_level": 1,
+      "stop_reason": "На уровне 2: 1/3"
+    }
+  ],
+  "timeout_count": 3
+}

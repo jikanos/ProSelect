@@ -1,0 +1,607 @@
+{
+  "session_id": "458eeb9a-e992-41fb-a637-1a1c5bdcff81",
+  "candidate": "Тестовый участник 02",
+  "started_at": "2026-11-14T04:21:35.023996+00:00",
+  "finished_at": "2026-11-14T04:33:00.023996+00:00",
+  "status": "completed",
+  "mode": "Адаптивный (3 вопроса на уровень)",
+  "topics": [
+    "Компьютерная грамотность",
+    "Механика и инструменты",
+    "Технический английский",
+    "Физика и электроника"
+  ],
+  "bank_source": "Реестр Профотбор, выгрузка 2026-11-12",
+  "answers": [
+    {
+      "code": "КГ-007",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Какое устройство используется для вывода изображения с компьютера?",
+      "options": [
+        "Принтер",
+        "Сканер",
+        "Монитор",
+        "Клавиатура"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Г",
+      "selected_text": "Монитор",
+      "correct_index": 2,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:21:46.023996+00:00"
+    },
+    {
+      "code": "КГ-010",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Для чего используется полоса прокрутки в окне компьютерной программы?",
+      "options": [
+        "Для изменения размера текста",
+        "Для перемещения по содержимому окна",
+        "Для переключения между программами",
+        "Для изменения яркости экрана"
+      ],
+      "selected_index": 1,
+      "selected_letter": "Г",
+      "selected_text": "Для перемещения по содержимому окна",
+      "correct_index": 1,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:21:57.023996+00:00"
+    },
+    {
+      "code": "КГ-003",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Какой значок обычно обозначает поиск в компьютерных программах?",
+      "options": [
+        "Шестерёнка",
+        "Корзина",
+        "Папка",
+        "Лупа"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 3,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:22:27.023996+00:00"
+    },
+    {
+      "code": "КГ-016",
+      "topic": "Компьютерная грамотность",
+      "level": 2,
+      "question": "Как выделить несколько файлов, расположенных не подряд, в Проводнике Windows 10?",
+      "options": [
+        "Удерживать Shift и щёлкать по нужным файлам",
+        "Удерживать Ctrl и щёлкать по нужным файлам",
+        "Удерживать Alt и щёлкать по нужным файлам",
+        "Удерживать Tab и щёлкать по нужным файлам"
+      ],
+      "selected_index": 1,
+      "selected_letter": "А",
+      "selected_text": "Удерживать Ctrl и щёлкать по нужным файлам",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 40,
+      "timestamp": "2026-11-14T04:22:40.023996+00:00"
+    },
+    {
+      "code": "КГ-012",
+      "topic": "Компьютерная грамотность",
+      "level": 2,
+      "question": "Что произойдёт с исходным файлом, если скопировать его в другую папку на компьютере?",
+      "options": [
+        "Файл исчезнет из исходной папки.",
+        "Файл останется в исходной папке.",
+        "Файл переместится в другую папку.",
+        "Файл автоматически отправится в корзину."
+      ],
+      "selected_index": 1,
+      "selected_letter": "Б",
+      "selected_text": "Файл останется в исходной папке.",
+      "correct_index": 1,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 40,
+      "timestamp": "2026-11-14T04:23:05.023996+00:00"
+    },
+    {
+      "code": "КГ-011",
+      "topic": "Компьютерная грамотность",
+      "level": 2,
+      "question": "Какое сочетание клавиш используется для копирования выделенного текста в Windows?",
+      "options": [
+        "Ctrl + V",
+        "Ctrl + X",
+        "Ctrl + Z",
+        "Ctrl + C"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 3,
+      "correct_letter": "В",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 40,
+      "timestamp": "2026-11-14T04:23:45.023996+00:00"
+    },
+    {
+      "code": "КГ-025",
+      "topic": "Компьютерная грамотность",
+      "level": 3,
+      "question": "Какое устройство обычно назначает IP-адреса компьютерам при автоматическом подключении к домашней сети Wi-Fi?",
+      "options": [
+        "Сетевой адаптер компьютера",
+        "Маршрутизатор с DHCP-сервером",
+        "DNS-сервер провайдера",
+        "Точка доступа Wi-Fi без DHCP-сервера"
+      ],
+      "selected_index": 0,
+      "selected_letter": "В",
+      "selected_text": "Сетевой адаптер компьютера",
+      "correct_index": 1,
+      "correct_letter": "Г",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 55,
+      "timestamp": "2026-11-14T04:24:28.023996+00:00"
+    },
+    {
+      "code": "КГ-027",
+      "topic": "Компьютерная грамотность",
+      "level": 3,
+      "question": "При прочих равных условиях какое преимущество обычно имеет Wi-Fi в диапазоне 2,4 ГГц по сравнению с 5 ГГц?",
+      "options": [
+        "Более высокая максимальная скорость передачи данных",
+        "Меньшая задержка при передаче данных",
+        "Большее количество доступных неперекрывающихся каналов",
+        "Лучшее распространение сигнала через стены"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Г",
+      "selected_text": "Большее количество доступных неперекрывающихся каналов",
+      "correct_index": 3,
+      "correct_letter": "В",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 55,
+      "timestamp": "2026-11-14T04:24:49.023996+00:00"
+    },
+    {
+      "code": "КГ-030",
+      "topic": "Компьютерная грамотность",
+      "level": 3,
+      "question": "Пользователь переименовал файл photo.jpg в photo.png через Проводник Windows 10. Что произойдёт с форматом изображения?",
+      "options": [
+        "Изображение будет автоматически преобразовано в PNG.",
+        "Файл станет PNG после следующего открытия.",
+        "Формат изображения останется JPEG, изменится лишь расширение.",
+        "Windows преобразует изображение при следующем сохранении."
+      ],
+      "selected_index": 2,
+      "selected_letter": "Б",
+      "selected_text": "Формат изображения останется JPEG, изменится лишь расширение.",
+      "correct_index": 2,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 55,
+      "timestamp": "2026-11-14T04:24:58.023996+00:00"
+    },
+    {
+      "code": "МИ-004",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Что обозначает число «10», указанное на рожковом гаечном ключе?",
+      "options": [
+        "Длину рукоятки ключа в миллиметрах",
+        "Расстояние между губками ключа в миллиметрах",
+        "Толщину рабочей части ключа в миллиметрах",
+        "Ширину рукоятки ключа в миллиметрах"
+      ],
+      "selected_index": 1,
+      "selected_letter": "В",
+      "selected_text": "Расстояние между губками ключа в миллиметрах",
+      "correct_index": 1,
+      "correct_letter": "В",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:25:20.023996+00:00"
+    },
+    {
+      "code": "МИ-003",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Какую отвёртку используют для винта с прямым шлицем в форме знака «−»?",
+      "options": [
+        "Крестовую отвёртку (Phillips)",
+        "Звёздчатую отвёртку (Torx)",
+        "Шестигранную отвёртку (HEX)",
+        "Плоскую (шлицевую) отвёртку"
+      ],
+      "selected_index": 0,
+      "selected_letter": "Г",
+      "selected_text": "Крестовую отвёртку (Phillips)",
+      "correct_index": 3,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:25:44.023996+00:00"
+    },
+    {
+      "code": "МИ-007",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Какой инструмент предназначен для перекусывания тонкой металлической проволоки?",
+      "options": [
+        "Рожковый гаечный ключ",
+        "Крестовая отвёртка",
+        "Боковые кусачки (бокорезы)",
+        "Шестигранный ключ"
+      ],
+      "selected_index": 0,
+      "selected_letter": "Б",
+      "selected_text": "Рожковый гаечный ключ",
+      "correct_index": 2,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:26:08.023996+00:00"
+    },
+    {
+      "code": "ТА-013",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Save» при работе с документом?",
+      "options": [
+        "Открыть текущий документ",
+        "Сохранить текущий документ",
+        "Распечатать текущий документ",
+        "Закрыть текущий документ"
+      ],
+      "selected_index": 1,
+      "selected_letter": "А",
+      "selected_text": "Сохранить текущий документ",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:26:17.023996+00:00"
+    },
+    {
+      "code": "ТА-008",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Enable» в настройках программы?",
+      "options": [
+        "Отключить выбранную функцию",
+        "Включить выбранную функцию",
+        "Удалить выбранную функцию",
+        "Настроить выбранную функцию"
+      ],
+      "selected_index": 1,
+      "selected_letter": "Г",
+      "selected_text": "Включить выбранную функцию",
+      "correct_index": 1,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:26:38.023996+00:00"
+    },
+    {
+      "code": "ТА-002",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Apply» в интерфейсе программы?",
+      "options": [
+        "Отменить изменения",
+        "Применить изменения",
+        "Сохранить документ",
+        "Закрыть программу"
+      ],
+      "selected_index": 1,
+      "selected_letter": "В",
+      "selected_text": "Применить изменения",
+      "correct_index": 1,
+      "correct_letter": "В",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:26:44.023996+00:00"
+    },
+    {
+      "code": "ТА-023",
+      "topic": "Технический английский",
+      "level": 2,
+      "question": "Что означает сообщение «Configuration file not found» при запуске программы?",
+      "options": [
+        "Файл настроек повреждён",
+        "Файл настроек не найден",
+        "Файл настроек заблокирован",
+        "Файл настроек уже загружен"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 1,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 50,
+      "timestamp": "2026-11-14T04:27:34.023996+00:00"
+    },
+    {
+      "code": "ТА-018",
+      "topic": "Технический английский",
+      "level": 2,
+      "question": "Что означает термин «Default settings» в интерфейсе программы?",
+      "options": [
+        "Настройки, изменённые пользователем",
+        "Настройки, сохранённые в облаке",
+        "Настройки, заданные по умолчанию",
+        "Настройки, ожидающие подтверждения"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Б",
+      "selected_text": "Настройки, заданные по умолчанию",
+      "correct_index": 2,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 50,
+      "timestamp": "2026-11-14T04:28:04.023996+00:00"
+    },
+    {
+      "code": "ТА-021",
+      "topic": "Технический английский",
+      "level": 2,
+      "question": "Что означает сообщение «Firmware update required» при подключении оборудования к программе?",
+      "options": [
+        "Необходимо обновить прошивку устройства",
+        "Необходимо заменить кабель подключения",
+        "Необходимо перезапустить программу",
+        "Необходимо изменить настройки сети"
+      ],
+      "selected_index": 0,
+      "selected_letter": "В",
+      "selected_text": "Необходимо обновить прошивку устройства",
+      "correct_index": 0,
+      "correct_letter": "В",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 50,
+      "timestamp": "2026-11-14T04:28:36.023996+00:00"
+    },
+    {
+      "code": "ТА-035",
+      "topic": "Технический английский",
+      "level": 3,
+      "question": "При работе с программой появляется сообщение: «The backup was created successfully, but some files were skipped because they were in use.» Что означает это сообщение?",
+      "options": [
+        "Резервная копия создана, но некоторые файлы пропущены, поскольку использовались другими программами.",
+        "Резервная копия не создана, поскольку некоторые файлы были повреждены при копировании.",
+        "Резервная копия создана, но некоторые файлы удалены из-за нехватки места.",
+        "Резервная копия не создана, поскольку некоторые файлы были недоступны для чтения."
+      ],
+      "selected_index": 0,
+      "selected_letter": "В",
+      "selected_text": "Резервная копия создана, но некоторые файлы пропущены, поскольку использовались другими программами.",
+      "correct_index": 0,
+      "correct_letter": "В",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 75,
+      "timestamp": "2026-11-14T04:28:55.023996+00:00"
+    },
+    {
+      "code": "ТА-031",
+      "topic": "Технический английский",
+      "level": 3,
+      "question": "При работе с программой появляется сообщение: «The selected file is larger than the maximum allowed size. Please compress it before uploading.» Что необходимо сделать согласно сообщению?",
+      "options": [
+        "Разделить файл на части перед загрузкой",
+        "Изменить формат файла перед загрузкой",
+        "Переименовать файл перед загрузкой",
+        "Сжать файл перед загрузкой"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Б",
+      "selected_text": "Переименовать файл перед загрузкой",
+      "correct_index": 3,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 75,
+      "timestamp": "2026-11-14T04:29:42.023996+00:00"
+    },
+    {
+      "code": "ТА-036",
+      "topic": "Технический английский",
+      "level": 3,
+      "question": "При работе с программой появляется сообщение: «The file was saved locally, but synchronization with the cloud failed. Your changes will be uploaded when the connection is restored.» Что означает это сообщение?",
+      "options": [
+        "Файл сохранён в облаке, но локальная копия не обновилась.",
+        "Файл не сохранился, поэтому изменения необходимо внести повторно.",
+        "Файл сохранён локально, а изменения загрузятся в облако после восстановления соединения.",
+        "Файл сохранён локально, но изменения не будут переданы в облако."
+      ],
+      "selected_index": 1,
+      "selected_letter": "А",
+      "selected_text": "Файл не сохранился, поэтому изменения необходимо внести повторно.",
+      "correct_index": 2,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 80,
+      "timestamp": "2026-11-14T04:30:46.023996+00:00"
+    },
+    {
+      "code": "ФЭ-006",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Какой тип электрического тока используется в бытовой электросети?",
+      "options": [
+        "Постоянный ток",
+        "Импульсный ток",
+        "Переменный ток",
+        "Пульсирующий ток"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Б",
+      "selected_text": "Переменный ток",
+      "correct_index": 2,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:30:54.023996+00:00"
+    },
+    {
+      "code": "ФЭ-017",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Для чего нужна батарея или аккумулятор в переносном радиоприёмнике?",
+      "options": [
+        "Для усиления принимаемых радиоволн",
+        "Для настройки частоты радиостанции",
+        "Для улучшения качества антенны",
+        "Для питания электрических компонентов"
+      ],
+      "selected_index": 3,
+      "selected_letter": "А",
+      "selected_text": "Для питания электрических компонентов",
+      "correct_index": 3,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:31:02.023996+00:00"
+    },
+    {
+      "code": "ФЭ-011",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Какой из перечисленных материалов лучше всего проводит электрический ток?",
+      "options": [
+        "Сухая древесина",
+        "Обычное стекло",
+        "Твёрдая резина",
+        "Чистая медь"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 3,
+      "correct_letter": "Г",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:31:32.023996+00:00"
+    },
+    {
+      "code": "ФЭ-020",
+      "topic": "Физика и электроника",
+      "level": 2,
+      "question": "Что такое припой, используемый при пайке электронных компонентов?",
+      "options": [
+        "Материал для изоляции проводов",
+        "Материал для очистки контактов",
+        "Металлический сплав для соединения деталей",
+        "Покрытие для защиты от влаги"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Г",
+      "selected_text": "Металлический сплав для соединения деталей",
+      "correct_index": 2,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 45,
+      "timestamp": "2026-11-14T04:31:58.023996+00:00"
+    },
+    {
+      "code": "ФЭ-033",
+      "topic": "Физика и электроника",
+      "level": 2,
+      "question": "Что означает приставка «милли-» перед единицей измерения?",
+      "options": [
+        "Увеличение в 100 раз",
+        "Уменьшение в 100 раз",
+        "Уменьшение в 1000 раз",
+        "Увеличение в 1000 раз"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 2,
+      "correct_letter": "Г",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 45,
+      "timestamp": "2026-11-14T04:32:43.023996+00:00"
+    },
+    {
+      "code": "ФЭ-030",
+      "topic": "Физика и электроника",
+      "level": 2,
+      "question": "Какой элемент радиоприёмника предназначен для приёма радиоволн из окружающего пространства?",
+      "options": [
+        "Усилитель сигнала",
+        "Антенна приёмника",
+        "Звуковой динамик",
+        "Источник питания"
+      ],
+      "selected_index": 2,
+      "selected_letter": "А",
+      "selected_text": "Звуковой динамик",
+      "correct_index": 1,
+      "correct_letter": "В",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 45,
+      "timestamp": "2026-11-14T04:33:00.023996+00:00"
+    }
+  ],
+  "topic_results": [
+    {
+      "topic": "Компьютерная грамотность",
+      "last_passed_level": 2,
+      "stop_reason": "На уровне 3: 1/3"
+    },
+    {
+      "topic": "Механика и инструменты",
+      "last_passed_level": 0,
+      "stop_reason": "На уровне 1: 1/3"
+    },
+    {
+      "topic": "Технический английский",
+      "last_passed_level": 2,
+      "stop_reason": "На уровне 3: 1/3"
+    },
+    {
+      "topic": "Физика и электроника",
+      "last_passed_level": 1,
+      "stop_reason": "На уровне 2: 1/3"
+    }
+  ],
+  "timeout_count": 5
+}

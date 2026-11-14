@@ -1,0 +1,481 @@
+{
+  "session_id": "d050f126-533e-4e22-942f-072447631d99",
+  "candidate": "Тестовый участник 48",
+  "started_at": "2026-11-14T04:24:31.023996+00:00",
+  "finished_at": "2026-11-14T04:31:29.023996+00:00",
+  "status": "completed",
+  "mode": "Адаптивный (3 вопроса на уровень)",
+  "topics": [
+    "Компьютерная грамотность",
+    "Механика и инструменты",
+    "Технический английский",
+    "Физика и электроника"
+  ],
+  "bank_source": "Реестр Профотбор, выгрузка 2026-11-12",
+  "answers": [
+    {
+      "code": "КГ-007",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Какое устройство используется для вывода изображения с компьютера?",
+      "options": [
+        "Принтер",
+        "Сканер",
+        "Монитор",
+        "Клавиатура"
+      ],
+      "selected_index": 2,
+      "selected_letter": "А",
+      "selected_text": "Монитор",
+      "correct_index": 2,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:24:41.023996+00:00"
+    },
+    {
+      "code": "КГ-001",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Как называется самая длинная клавиша на стандартной компьютерной клавиатуре?",
+      "options": [
+        "Enter (Ввод)",
+        "Shift",
+        "Пробел (Space)",
+        "Backspace"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Б",
+      "selected_text": "Backspace",
+      "correct_index": 2,
+      "correct_letter": "В",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:25:02.023996+00:00"
+    },
+    {
+      "code": "КГ-010",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Для чего используется полоса прокрутки в окне компьютерной программы?",
+      "options": [
+        "Для изменения размера текста",
+        "Для перемещения по содержимому окна",
+        "Для переключения между программами",
+        "Для изменения яркости экрана"
+      ],
+      "selected_index": 1,
+      "selected_letter": "А",
+      "selected_text": "Для перемещения по содержимому окна",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:25:17.023996+00:00"
+    },
+    {
+      "code": "КГ-018",
+      "topic": "Компьютерная грамотность",
+      "level": 2,
+      "question": "В Проводнике Windows 10 пользователь случайно переименовал файл. Какое сочетание клавиш позволяет отменить последнее действие?",
+      "options": [
+        "Ctrl + Z",
+        "Ctrl + Y",
+        "Ctrl + X",
+        "Ctrl + V"
+      ],
+      "selected_index": 0,
+      "selected_letter": "Б",
+      "selected_text": "Ctrl + Z",
+      "correct_index": 0,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 40,
+      "timestamp": "2026-11-14T04:25:22.023996+00:00"
+    },
+    {
+      "code": "КГ-011",
+      "topic": "Компьютерная грамотность",
+      "level": 2,
+      "question": "Какое сочетание клавиш используется для копирования выделенного текста в Windows?",
+      "options": [
+        "Ctrl + V",
+        "Ctrl + X",
+        "Ctrl + Z",
+        "Ctrl + C"
+      ],
+      "selected_index": 1,
+      "selected_letter": "В",
+      "selected_text": "Ctrl + X",
+      "correct_index": 3,
+      "correct_letter": "Г",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 40,
+      "timestamp": "2026-11-14T04:25:35.023996+00:00"
+    },
+    {
+      "code": "КГ-021",
+      "topic": "Компьютерная грамотность",
+      "level": 2,
+      "question": "В браузере Google Chrome пользователь случайно закрыл вкладку с нужной страницей. Как можно восстановить её без повторного поиска сайта?",
+      "options": [
+        "Открыть историю посещений и выбрать страницу",
+        "Открыть настройки браузера и изменить главную страницу",
+        "Открыть список загрузок и выбрать последний файл",
+        "Открыть новую вкладку и обновить её содержимое"
+      ],
+      "selected_index": 2,
+      "selected_letter": "А",
+      "selected_text": "Открыть список загрузок и выбрать последний файл",
+      "correct_index": 0,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 40,
+      "timestamp": "2026-11-14T04:25:51.023996+00:00"
+    },
+    {
+      "code": "МИ-001",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "В какую сторону обычно нужно поворачивать отвёртку, чтобы закрутить винт с обычной правой резьбой?",
+      "options": [
+        "По направлению часовой стрелки",
+        "Против часовой стрелки",
+        "Попеременно в обоих направлениях",
+        "В любом направлении вращения"
+      ],
+      "selected_index": 0,
+      "selected_letter": "Г",
+      "selected_text": "По направлению часовой стрелки",
+      "correct_index": 0,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:25:59.023996+00:00"
+    },
+    {
+      "code": "МИ-009",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Какую из перечисленных лент используют для электрической изоляции проводов?",
+      "options": [
+        "Малярную бумажную ленту",
+        "Упаковочную клейкую ленту",
+        "Электроизоляционную ПВХ-ленту",
+        "Двустороннюю монтажную ленту"
+      ],
+      "selected_index": 1,
+      "selected_letter": "В",
+      "selected_text": "Упаковочную клейкую ленту",
+      "correct_index": 2,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:26:14.023996+00:00"
+    },
+    {
+      "code": "МИ-004",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Что обозначает число «10», указанное на рожковом гаечном ключе?",
+      "options": [
+        "Длину рукоятки ключа в миллиметрах",
+        "Расстояние между губками ключа в миллиметрах",
+        "Толщину рабочей части ключа в миллиметрах",
+        "Ширину рукоятки ключа в миллиметрах"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 1,
+      "correct_letter": "Г",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:26:44.023996+00:00"
+    },
+    {
+      "code": "ТА-003",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Cancel» в интерфейсе программы?",
+      "options": [
+        "Сохранить изменения",
+        "Применить настройки",
+        "Подтвердить действие",
+        "Отменить действие"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 3,
+      "correct_letter": "Г",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:27:19.023996+00:00"
+    },
+    {
+      "code": "ТА-004",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Browse» при выборе файла или папки в программе?",
+      "options": [
+        "Удалить выбранный файл",
+        "Открыть окно выбора файла или папки",
+        "Сохранить выбранный файл",
+        "Переименовать выбранный файл"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Б",
+      "selected_text": "Переименовать выбранный файл",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:27:42.023996+00:00"
+    },
+    {
+      "code": "ТА-005",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Retry» при возникновении ошибки в программе?",
+      "options": [
+        "Повторить попытку",
+        "Пропустить ошибку",
+        "Закрыть программу",
+        "Отменить операцию"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Г",
+      "selected_text": "Закрыть программу",
+      "correct_index": 0,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:28:13.023996+00:00"
+    },
+    {
+      "code": "ФЭ-017",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Для чего нужна батарея или аккумулятор в переносном радиоприёмнике?",
+      "options": [
+        "Для усиления принимаемых радиоволн",
+        "Для настройки частоты радиостанции",
+        "Для улучшения качества антенны",
+        "Для питания электрических компонентов"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Б",
+      "selected_text": "Для питания электрических компонентов",
+      "correct_index": 3,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:28:31.023996+00:00"
+    },
+    {
+      "code": "ФЭ-005",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Какую полярность обычно обозначает чёрный провод в цепи постоянного тока?",
+      "options": [
+        "Отрицательную полярность",
+        "Положительную полярность",
+        "Нейтральное соединение",
+        "Заземляющее соединение"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Г",
+      "selected_text": "Заземляющее соединение",
+      "correct_index": 0,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:28:39.023996+00:00"
+    },
+    {
+      "code": "ФЭ-004",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Какую полярность обычно обозначает красный провод в цепи постоянного тока?",
+      "options": [
+        "Отрицательную полярность",
+        "Положительную полярность",
+        "Нейтральное соединение",
+        "Заземляющее соединение"
+      ],
+      "selected_index": 1,
+      "selected_letter": "Б",
+      "selected_text": "Положительную полярность",
+      "correct_index": 1,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:29:00.023996+00:00"
+    },
+    {
+      "code": "ФЭ-030",
+      "topic": "Физика и электроника",
+      "level": 2,
+      "question": "Какой элемент радиоприёмника предназначен для приёма радиоволн из окружающего пространства?",
+      "options": [
+        "Усилитель сигнала",
+        "Антенна приёмника",
+        "Звуковой динамик",
+        "Источник питания"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 1,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 45,
+      "timestamp": "2026-11-14T04:29:45.023996+00:00"
+    },
+    {
+      "code": "ФЭ-019",
+      "topic": "Физика и электроника",
+      "level": 2,
+      "question": "Сколько основных выводов имеет обычный биполярный транзистор?",
+      "options": [
+        "Два вывода",
+        "Четыре вывода",
+        "Три вывода",
+        "Пять выводов"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Г",
+      "selected_text": "Три вывода",
+      "correct_index": 2,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 45,
+      "timestamp": "2026-11-14T04:30:03.023996+00:00"
+    },
+    {
+      "code": "ФЭ-012",
+      "topic": "Физика и электроника",
+      "level": 2,
+      "question": "Для чего обычно используют резистор в электрической цепи?",
+      "options": [
+        "Для накопления электрического заряда",
+        "Для ограничения электрического тока",
+        "Для преобразования тока в свет",
+        "Для выпрямления переменного тока"
+      ],
+      "selected_index": 1,
+      "selected_letter": "Б",
+      "selected_text": "Для ограничения электрического тока",
+      "correct_index": 1,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 45,
+      "timestamp": "2026-11-14T04:30:32.023996+00:00"
+    },
+    {
+      "code": "ФЭ-038",
+      "topic": "Физика и электроника",
+      "level": 3,
+      "question": "Электрическая мощность устройства составляет 0,75 кВт. Сколько это в ваттах (Вт)?",
+      "options": [
+        "75 Вт",
+        "7500 Вт",
+        "750 Вт",
+        "75000 Вт"
+      ],
+      "selected_index": 1,
+      "selected_letter": "В",
+      "selected_text": "7500 Вт",
+      "correct_index": 2,
+      "correct_letter": "Г",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 80,
+      "timestamp": "2026-11-14T04:30:43.023996+00:00"
+    },
+    {
+      "code": "ФЭ-043",
+      "topic": "Физика и электроника",
+      "level": 3,
+      "question": "Ёмкость конденсатора составляет 0,047 мкФ. Сколько это в нанофарадах (нФ)?",
+      "options": [
+        "4,7 нФ",
+        "470 нФ",
+        "0,47 нФ",
+        "47 нФ"
+      ],
+      "selected_index": 0,
+      "selected_letter": "А",
+      "selected_text": "4,7 нФ",
+      "correct_index": 3,
+      "correct_letter": "Г",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 80,
+      "timestamp": "2026-11-14T04:30:53.023996+00:00"
+    },
+    {
+      "code": "ФЭ-040",
+      "topic": "Физика и электроника",
+      "level": 3,
+      "question": "Электрическое сопротивление резистора составляет 4,7 кОм. Сколько это в омах (Ом)?",
+      "options": [
+        "470 Ом",
+        "47 000 Ом",
+        "470 000 Ом",
+        "4700 Ом"
+      ],
+      "selected_index": 1,
+      "selected_letter": "А",
+      "selected_text": "47 000 Ом",
+      "correct_index": 3,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 80,
+      "timestamp": "2026-11-14T04:31:29.023996+00:00"
+    }
+  ],
+  "topic_results": [
+    {
+      "topic": "Компьютерная грамотность",
+      "last_passed_level": 1,
+      "stop_reason": "На уровне 2: 1/3"
+    },
+    {
+      "topic": "Механика и инструменты",
+      "last_passed_level": 0,
+      "stop_reason": "На уровне 1: 1/3"
+    },
+    {
+      "topic": "Технический английский",
+      "last_passed_level": 0,
+      "stop_reason": "На уровне 1: 0/3"
+    },
+    {
+      "topic": "Физика и электроника",
+      "last_passed_level": 2,
+      "stop_reason": "На уровне 3: 0/3"
+    }
+  ],
+  "timeout_count": 3
+}

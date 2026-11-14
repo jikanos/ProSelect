@@ -1,0 +1,670 @@
+{
+  "session_id": "fdd36e79-1161-4b64-8f1f-635dd376fd62",
+  "candidate": "Тестовый участник 15",
+  "started_at": "2026-11-14T04:24:11.023996+00:00",
+  "finished_at": "2026-11-14T04:37:49.023996+00:00",
+  "status": "completed",
+  "mode": "Адаптивный (3 вопроса на уровень)",
+  "topics": [
+    "Компьютерная грамотность",
+    "Механика и инструменты",
+    "Технический английский",
+    "Физика и электроника"
+  ],
+  "bank_source": "Реестр Профотбор, выгрузка 2026-11-12",
+  "answers": [
+    {
+      "code": "КГ-001",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Как называется самая длинная клавиша на стандартной компьютерной клавиатуре?",
+      "options": [
+        "Enter (Ввод)",
+        "Shift",
+        "Пробел (Space)",
+        "Backspace"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Б",
+      "selected_text": "Пробел (Space)",
+      "correct_index": 2,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:24:20.023996+00:00"
+    },
+    {
+      "code": "КГ-007",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Какое устройство используется для вывода изображения с компьютера?",
+      "options": [
+        "Принтер",
+        "Сканер",
+        "Монитор",
+        "Клавиатура"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Г",
+      "selected_text": "Монитор",
+      "correct_index": 2,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:24:41.023996+00:00"
+    },
+    {
+      "code": "КГ-005",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Для чего предназначен значок корзины на рабочем столе Windows?",
+      "options": [
+        "Для хранения установленных программ",
+        "Для просмотра скачанных файлов",
+        "Для хранения удалённых файлов",
+        "Для просмотра открытых документов"
+      ],
+      "selected_index": 1,
+      "selected_letter": "Г",
+      "selected_text": "Для просмотра скачанных файлов",
+      "correct_index": 2,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:24:50.023996+00:00"
+    },
+    {
+      "code": "КГ-019",
+      "topic": "Компьютерная грамотность",
+      "level": 2,
+      "question": "Какую клавишу нужно нажать в Проводнике Windows 10, чтобы переименовать выделенный файл?",
+      "options": [
+        "F1",
+        "F2",
+        "F3",
+        "F5"
+      ],
+      "selected_index": 2,
+      "selected_letter": "В",
+      "selected_text": "F3",
+      "correct_index": 1,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 40,
+      "timestamp": "2026-11-14T04:25:00.023996+00:00"
+    },
+    {
+      "code": "КГ-011",
+      "topic": "Компьютерная грамотность",
+      "level": 2,
+      "question": "Какое сочетание клавиш используется для копирования выделенного текста в Windows?",
+      "options": [
+        "Ctrl + V",
+        "Ctrl + X",
+        "Ctrl + Z",
+        "Ctrl + C"
+      ],
+      "selected_index": 1,
+      "selected_letter": "Г",
+      "selected_text": "Ctrl + X",
+      "correct_index": 3,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 40,
+      "timestamp": "2026-11-14T04:25:11.023996+00:00"
+    },
+    {
+      "code": "КГ-012",
+      "topic": "Компьютерная грамотность",
+      "level": 2,
+      "question": "Что произойдёт с исходным файлом, если скопировать его в другую папку на компьютере?",
+      "options": [
+        "Файл исчезнет из исходной папки.",
+        "Файл останется в исходной папке.",
+        "Файл переместится в другую папку.",
+        "Файл автоматически отправится в корзину."
+      ],
+      "selected_index": 1,
+      "selected_letter": "А",
+      "selected_text": "Файл останется в исходной папке.",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 40,
+      "timestamp": "2026-11-14T04:25:23.023996+00:00"
+    },
+    {
+      "code": "МИ-005",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Какую насадку устанавливают в шуруповёрт, чтобы просверлить отверстие?",
+      "options": [
+        "Крестовую биту для винтов",
+        "Торцевую головку для гаек",
+        "Сверло подходящего типа и размера",
+        "Шестигранную биту для винтов"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Г",
+      "selected_text": "Шестигранную биту для винтов",
+      "correct_index": 2,
+      "correct_letter": "В",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:25:43.023996+00:00"
+    },
+    {
+      "code": "МИ-009",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Какую из перечисленных лент используют для электрической изоляции проводов?",
+      "options": [
+        "Малярную бумажную ленту",
+        "Упаковочную клейкую ленту",
+        "Электроизоляционную ПВХ-ленту",
+        "Двустороннюю монтажную ленту"
+      ],
+      "selected_index": 2,
+      "selected_letter": "А",
+      "selected_text": "Электроизоляционную ПВХ-ленту",
+      "correct_index": 2,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:25:54.023996+00:00"
+    },
+    {
+      "code": "МИ-004",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Что обозначает число «10», указанное на рожковом гаечном ключе?",
+      "options": [
+        "Длину рукоятки ключа в миллиметрах",
+        "Расстояние между губками ключа в миллиметрах",
+        "Толщину рабочей части ключа в миллиметрах",
+        "Ширину рукоятки ключа в миллиметрах"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:26:24.023996+00:00"
+    },
+    {
+      "code": "ТА-009",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Disable» в настройках программы?",
+      "options": [
+        "Включить выбранную функцию",
+        "Настроить выбранную функцию",
+        "Отключить выбранную функцию",
+        "Перезапустить выбранную функцию"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Г",
+      "selected_text": "Отключить выбранную функцию",
+      "correct_index": 2,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:26:36.023996+00:00"
+    },
+    {
+      "code": "ТА-015",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Upload» при работе с файлами?",
+      "options": [
+        "Скачать файл из интернета на устройство",
+        "Отправить файл с устройства на сервер",
+        "Переместить файл в другую папку",
+        "Скопировать файл на другое устройство"
+      ],
+      "selected_index": 0,
+      "selected_letter": "Б",
+      "selected_text": "Скачать файл из интернета на устройство",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:26:46.023996+00:00"
+    },
+    {
+      "code": "ТА-006",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Skip» при установке программы?",
+      "options": [
+        "Повторить текущий шаг",
+        "Отменить установку",
+        "Пропустить текущий шаг",
+        "Вернуться на прошлый шаг"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Б",
+      "selected_text": "Пропустить текущий шаг",
+      "correct_index": 2,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:27:02.023996+00:00"
+    },
+    {
+      "code": "ТА-026",
+      "topic": "Технический английский",
+      "level": 2,
+      "question": "Что означает сообщение «Driver installation failed» при подключении оборудования к компьютеру?",
+      "options": [
+        "Драйвер устройства успешно обновлён",
+        "Драйвер устройства ожидает перезапуска",
+        "Не удалось установить драйвер устройства",
+        "Драйвер устройства временно отключён"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Г",
+      "selected_text": "Не удалось установить драйвер устройства",
+      "correct_index": 2,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 50,
+      "timestamp": "2026-11-14T04:27:16.023996+00:00"
+    },
+    {
+      "code": "ТА-024",
+      "topic": "Технический английский",
+      "level": 2,
+      "question": "Что означает сообщение «Invalid password» при попытке входа в программу?",
+      "options": [
+        "Срок действия пароля истёк",
+        "Введён неверный пароль",
+        "Пароль успешно изменён",
+        "Требуется придумать пароль"
+      ],
+      "selected_index": 1,
+      "selected_letter": "Б",
+      "selected_text": "Введён неверный пароль",
+      "correct_index": 1,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 50,
+      "timestamp": "2026-11-14T04:27:39.023996+00:00"
+    },
+    {
+      "code": "ТА-021",
+      "topic": "Технический английский",
+      "level": 2,
+      "question": "Что означает сообщение «Firmware update required» при подключении оборудования к программе?",
+      "options": [
+        "Необходимо обновить прошивку устройства",
+        "Необходимо заменить кабель подключения",
+        "Необходимо перезапустить программу",
+        "Необходимо изменить настройки сети"
+      ],
+      "selected_index": 1,
+      "selected_letter": "Б",
+      "selected_text": "Необходимо заменить кабель подключения",
+      "correct_index": 0,
+      "correct_letter": "В",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 50,
+      "timestamp": "2026-11-14T04:28:08.023996+00:00"
+    },
+    {
+      "code": "ТА-029",
+      "topic": "Технический английский",
+      "level": 3,
+      "question": "При настройке оборудования программа показывает сообщение: «If the device is not detected, check the USB connection and restart the software.» Что необходимо сделать согласно инструкции?",
+      "options": [
+        "Проверить USB-подключение и перезапустить программу",
+        "Заменить USB-кабель и перезагрузить компьютер",
+        "Отключить USB-устройство и переустановить драйвер",
+        "Проверить сетевое подключение и обновить программу"
+      ],
+      "selected_index": 0,
+      "selected_letter": "В",
+      "selected_text": "Проверить USB-подключение и перезапустить программу",
+      "correct_index": 0,
+      "correct_letter": "В",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 75,
+      "timestamp": "2026-11-14T04:28:55.023996+00:00"
+    },
+    {
+      "code": "ТА-032",
+      "topic": "Технический английский",
+      "level": 3,
+      "question": "При настройке программы появляется инструкция: «Make sure the device is powered off before connecting the external power supply.» Что необходимо сделать согласно инструкции?",
+      "options": [
+        "Отключить внешний источник питания после запуска устройства",
+        "Убедиться, что устройство выключено, перед подключением внешнего питания",
+        "Включить устройство перед подключением внешнего питания",
+        "Перезагрузить устройство после подключения внешнего питания"
+      ],
+      "selected_index": 1,
+      "selected_letter": "В",
+      "selected_text": "Убедиться, что устройство выключено, перед подключением внешнего питания",
+      "correct_index": 1,
+      "correct_letter": "В",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 75,
+      "timestamp": "2026-11-14T04:29:04.023996+00:00"
+    },
+    {
+      "code": "ТА-036",
+      "topic": "Технический английский",
+      "level": 3,
+      "question": "При работе с программой появляется сообщение: «The file was saved locally, but synchronization with the cloud failed. Your changes will be uploaded when the connection is restored.» Что означает это сообщение?",
+      "options": [
+        "Файл сохранён в облаке, но локальная копия не обновилась.",
+        "Файл не сохранился, поэтому изменения необходимо внести повторно.",
+        "Файл сохранён локально, а изменения загрузятся в облако после восстановления соединения.",
+        "Файл сохранён локально, но изменения не будут переданы в облако."
+      ],
+      "selected_index": 2,
+      "selected_letter": "А",
+      "selected_text": "Файл сохранён локально, а изменения загрузятся в облако после восстановления соединения.",
+      "correct_index": 2,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 80,
+      "timestamp": "2026-11-14T04:29:44.023996+00:00"
+    },
+    {
+      "code": "ТА-044",
+      "topic": "Технический английский",
+      "level": 4,
+      "question": "A technical maintenance manual contains the following instruction: «The device must not be operated if the cooling fan is malfunctioning. Continued operation under these conditions may cause overheating and permanent damage to internal components.» What does this instruction mean?",
+      "options": [
+        "При неисправности вентилятора устройство можно использовать с пониженной нагрузкой, чтобы предотвратить перегрев компонентов.",
+        "При неисправности вентилятора необходимо уменьшить скорость его вращения, иначе возможен перегрев устройства.",
+        "При неисправности вентилятора запрещено эксплуатировать устройство, поскольку возможны перегрев и необратимые повреждения компонентов.",
+        "При неисправности вентилятора необходимо перезапустить устройство, чтобы восстановить охлаждение внутренних компонентов."
+      ],
+      "selected_index": 3,
+      "selected_letter": "Г",
+      "selected_text": "При неисправности вентилятора необходимо перезапустить устройство, чтобы восстановить охлаждение внутренних компонентов.",
+      "correct_index": 2,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 145,
+      "timestamp": "2026-11-14T04:30:52.023996+00:00"
+    },
+    {
+      "code": "ТА-047",
+      "topic": "Технический английский",
+      "level": 4,
+      "question": "A technical specification contains the following statement: «The power supply is rated for continuous operation at 150 W. It can handle peak loads of up to 200 W for no longer than 10 seconds. Exceeding these limits may trigger overload protection.» What does this specification mean?",
+      "options": [
+        "Блок питания рассчитан на постоянную нагрузку 200 Вт, но при работе дольше 10 секунд мощность необходимо снизить до 150 Вт.",
+        "Блок питания рассчитан на нагрузку 150 Вт в течение 10 секунд, а при кратковременных пиках допускает постоянную работу на 200 Вт.",
+        "Блок питания рассчитан на постоянную нагрузку 150 Вт и кратковременную до 200 Вт продолжительностью не более 10 секунд. Превышение ограничений может вызвать защитное отключение.",
+        "Блок питания рассчитан на постоянную нагрузку до 150 Вт. При достижении 200 Вт защита обязательно сработает независимо от продолжительности нагрузки."
+      ],
+      "selected_index": 3,
+      "selected_letter": "Б",
+      "selected_text": "Блок питания рассчитан на постоянную нагрузку до 150 Вт. При достижении 200 Вт защита обязательно сработает независимо от продолжительности нагрузки.",
+      "correct_index": 2,
+      "correct_letter": "Г",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 165,
+      "timestamp": "2026-11-14T04:31:47.023996+00:00"
+    },
+    {
+      "code": "ТА-050",
+      "topic": "Технический английский",
+      "level": 4,
+      "question": "A technical specification contains the following statement: «The device is rated IP67, meaning it is dust-tight and protected against temporary immersion in water under specified test conditions. This rating does not guarantee resistance to high-pressure water jets.» What does this specification mean?",
+      "options": [
+        "Устройство полностью защищено от пыли и выдерживает временное погружение в воду при заданных условиях, но защита от струй воды высокого давления не гарантируется.",
+        "Устройство защищено от пыли и выдерживает длительное погружение на любую глубину, но не предназначено для работы под дождём.",
+        "Устройство полностью защищено от пыли и струй воды высокого давления, но не допускает временного погружения в воду.",
+        "Устройство частично защищено от пыли и выдерживает струи воды высокого давления, но не предназначено для погружения."
+      ],
+      "selected_index": 3,
+      "selected_letter": "В",
+      "selected_text": "Устройство частично защищено от пыли и выдерживает струи воды высокого давления, но не предназначено для погружения.",
+      "correct_index": 0,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 160,
+      "timestamp": "2026-11-14T04:33:36.023996+00:00"
+    },
+    {
+      "code": "ФЭ-003",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Что такое электрический ток?",
+      "options": [
+        "Движение нейтральных частиц",
+        "Передача тепла между телами",
+        "Распространение световых волн",
+        "Направленное движение заряженных частиц"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Б",
+      "selected_text": "Направленное движение заряженных частиц",
+      "correct_index": 3,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:33:55.023996+00:00"
+    },
+    {
+      "code": "ФЭ-014",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Как называется прибор для измерения силы электрического тока?",
+      "options": [
+        "Вольтметр",
+        "Омметр",
+        "Ваттметр",
+        "Амперметр"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Г",
+      "selected_text": "Амперметр",
+      "correct_index": 3,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:34:21.023996+00:00"
+    },
+    {
+      "code": "ФЭ-004",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Какую полярность обычно обозначает красный провод в цепи постоянного тока?",
+      "options": [
+        "Отрицательную полярность",
+        "Положительную полярность",
+        "Нейтральное соединение",
+        "Заземляющее соединение"
+      ],
+      "selected_index": 1,
+      "selected_letter": "А",
+      "selected_text": "Положительную полярность",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:34:25.023996+00:00"
+    },
+    {
+      "code": "ФЭ-046",
+      "topic": "Физика и электроника",
+      "level": 2,
+      "question": "На адаптере питания указано: «Вход — 230 В переменного тока, выход — 12 В постоянного тока». Какую функцию выполняет этот адаптер?",
+      "options": [
+        "Повышает напряжение и сохраняет переменный ток.",
+        "Понижает напряжение и преобразует ток в постоянный.",
+        "Сохраняет напряжение и ограничивает силу тока.",
+        "Изменяет частоту тока без изменения напряжения."
+      ],
+      "selected_index": 1,
+      "selected_letter": "Б",
+      "selected_text": "Понижает напряжение и преобразует ток в постоянный.",
+      "correct_index": 1,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 45,
+      "timestamp": "2026-11-14T04:34:34.023996+00:00"
+    },
+    {
+      "code": "ФЭ-036",
+      "topic": "Физика и электроника",
+      "level": 2,
+      "question": "Сколько миллиампер (мА) содержится в одном ампере (А)?",
+      "options": [
+        "1000 миллиампер",
+        "100 миллиампер",
+        "10 миллиампер",
+        "10 000 миллиампер"
+      ],
+      "selected_index": 2,
+      "selected_letter": "В",
+      "selected_text": "10 миллиампер",
+      "correct_index": 0,
+      "correct_letter": "Г",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 60,
+      "timestamp": "2026-11-14T04:35:24.023996+00:00"
+    },
+    {
+      "code": "ФЭ-013",
+      "topic": "Физика и электроника",
+      "level": 2,
+      "question": "Каково основное назначение конденсатора в электрической цепи?",
+      "options": [
+        "Стабилизация частоты сигнала",
+        "Усиление электрического сигнала",
+        "Накопление электрического заряда",
+        "Преобразование электрической энергии в свет"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Б",
+      "selected_text": "Накопление электрического заряда",
+      "correct_index": 2,
+      "correct_letter": "Б",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 45,
+      "timestamp": "2026-11-14T04:35:50.023996+00:00"
+    },
+    {
+      "code": "ФЭ-022",
+      "topic": "Физика и электроника",
+      "level": 3,
+      "question": "Что обычно показывает мультиметр в режиме прозвонки при соединении щупов между собой?",
+      "options": [
+        "Высокое сопротивление без звукового сигнала",
+        "Низкое сопротивление и звуковой сигнал",
+        "Напряжение сети и звуковой сигнал",
+        "Бесконечное сопротивление и звуковой сигнал"
+      ],
+      "selected_index": 0,
+      "selected_letter": "А",
+      "selected_text": "Высокое сопротивление без звукового сигнала",
+      "correct_index": 1,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 65,
+      "timestamp": "2026-11-14T04:36:14.023996+00:00"
+    },
+    {
+      "code": "ФЭ-043",
+      "topic": "Физика и электроника",
+      "level": 3,
+      "question": "Ёмкость конденсатора составляет 0,047 мкФ. Сколько это в нанофарадах (нФ)?",
+      "options": [
+        "4,7 нФ",
+        "470 нФ",
+        "0,47 нФ",
+        "47 нФ"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Г",
+      "selected_text": "47 нФ",
+      "correct_index": 3,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 80,
+      "timestamp": "2026-11-14T04:37:02.023996+00:00"
+    },
+    {
+      "code": "ФЭ-034",
+      "topic": "Физика и электроника",
+      "level": 3,
+      "question": "Две одинаковые антенны установлены на разной высоте. Между радиостанциями находятся здания и деревья. Почему антенна, установленная выше, часто обеспечивает более устойчивую радиосвязь?",
+      "options": [
+        "Уменьшается влияние препятствий на пути радиосигнала",
+        "Автоматически увеличивается мощность радиопередатчика",
+        "Повышается рабочая частота передаваемого радиосигнала",
+        "Увеличивается электрическое напряжение на антенне"
+      ],
+      "selected_index": 1,
+      "selected_letter": "В",
+      "selected_text": "Автоматически увеличивается мощность радиопередатчика",
+      "correct_index": 0,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 65,
+      "timestamp": "2026-11-14T04:37:49.023996+00:00"
+    }
+  ],
+  "topic_results": [
+    {
+      "topic": "Компьютерная грамотность",
+      "last_passed_level": 1,
+      "stop_reason": "На уровне 2: 1/3"
+    },
+    {
+      "topic": "Механика и инструменты",
+      "last_passed_level": 0,
+      "stop_reason": "На уровне 1: 1/3"
+    },
+    {
+      "topic": "Технический английский",
+      "last_passed_level": 3,
+      "stop_reason": "На уровне 4: 0/3"
+    },
+    {
+      "topic": "Физика и электроника",
+      "last_passed_level": 2,
+      "stop_reason": "На уровне 3: 1/3"
+    }
+  ],
+  "timeout_count": 1
+}

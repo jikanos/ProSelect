@@ -1,0 +1,292 @@
+{
+  "session_id": "eaf34522-0dd7-48df-83b6-4c7422f9db1e",
+  "candidate": "Тестовый участник 05",
+  "started_at": "2026-11-14T04:21:17.023996+00:00",
+  "finished_at": "2026-11-14T04:25:02.023996+00:00",
+  "status": "completed",
+  "mode": "Адаптивный (3 вопроса на уровень)",
+  "topics": [
+    "Компьютерная грамотность",
+    "Механика и инструменты",
+    "Технический английский",
+    "Физика и электроника"
+  ],
+  "bank_source": "Реестр Профотбор, выгрузка 2026-11-12",
+  "answers": [
+    {
+      "code": "КГ-007",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Какое устройство используется для вывода изображения с компьютера?",
+      "options": [
+        "Принтер",
+        "Сканер",
+        "Монитор",
+        "Клавиатура"
+      ],
+      "selected_index": 2,
+      "selected_letter": "В",
+      "selected_text": "Монитор",
+      "correct_index": 2,
+      "correct_letter": "В",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:21:31.023996+00:00"
+    },
+    {
+      "code": "КГ-008",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Какая клавиша обычно используется для удаления символа слева от курсора при наборе текста?",
+      "options": [
+        "Delete",
+        "Backspace",
+        "Enter",
+        "Insert"
+      ],
+      "selected_index": 0,
+      "selected_letter": "Г",
+      "selected_text": "Delete",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:21:43.023996+00:00"
+    },
+    {
+      "code": "КГ-002",
+      "topic": "Компьютерная грамотность",
+      "level": 1,
+      "question": "Для чего используется компьютерная мышь?",
+      "options": [
+        "Для вывода звука",
+        "Для перемещения указателя и выбора объектов на экране",
+        "Для хранения файлов",
+        "Для подключения компьютера к интернету"
+      ],
+      "selected_index": 3,
+      "selected_letter": "В",
+      "selected_text": "Для подключения компьютера к интернету",
+      "correct_index": 1,
+      "correct_letter": "Б",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:21:57.023996+00:00"
+    },
+    {
+      "code": "МИ-007",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Какой инструмент предназначен для перекусывания тонкой металлической проволоки?",
+      "options": [
+        "Рожковый гаечный ключ",
+        "Крестовая отвёртка",
+        "Боковые кусачки (бокорезы)",
+        "Шестигранный ключ"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 2,
+      "correct_letter": "Г",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:22:27.023996+00:00"
+    },
+    {
+      "code": "МИ-006",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Какой электроинструмент обычно используют для сверления отверстий в бетонной стене?",
+      "options": [
+        "Электрический перфоратор",
+        "Аккумуляторный шуруповёрт",
+        "Угловая шлифовальная машина",
+        "Электрический лобзик"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 0,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:22:57.023996+00:00"
+    },
+    {
+      "code": "МИ-002",
+      "topic": "Механика и инструменты",
+      "level": 1,
+      "question": "Какой из перечисленных инструментов используют для закручивания винта с шестигранным углублением в головке?",
+      "options": [
+        "Отвёртка с плоским жалом",
+        "Крестообразная отвёртка",
+        "Г-образный шестигранный ключ",
+        "Рожковый гаечный ключ"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 2,
+      "correct_letter": "В",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:23:27.023996+00:00"
+    },
+    {
+      "code": "ТА-003",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Cancel» в интерфейсе программы?",
+      "options": [
+        "Сохранить изменения",
+        "Применить настройки",
+        "Подтвердить действие",
+        "Отменить действие"
+      ],
+      "selected_index": null,
+      "selected_letter": null,
+      "selected_text": null,
+      "correct_index": 3,
+      "correct_letter": "Г",
+      "is_correct": false,
+      "timed_out": true,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:24:02.023996+00:00"
+    },
+    {
+      "code": "ТА-016",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Download» при работе с файлами в интернете?",
+      "options": [
+        "Удалить файл с сервера",
+        "Отправить файл на сервер",
+        "Скачать файл на своё устройство",
+        "Открыть файл для просмотра"
+      ],
+      "selected_index": 2,
+      "selected_letter": "А",
+      "selected_text": "Скачать файл на своё устройство",
+      "correct_index": 2,
+      "correct_letter": "А",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:24:18.023996+00:00"
+    },
+    {
+      "code": "ТА-002",
+      "topic": "Технический английский",
+      "level": 1,
+      "question": "Что означает кнопка «Apply» в интерфейсе программы?",
+      "options": [
+        "Отменить изменения",
+        "Применить изменения",
+        "Сохранить документ",
+        "Закрыть программу"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Б",
+      "selected_text": "Сохранить документ",
+      "correct_index": 1,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 35,
+      "timestamp": "2026-11-14T04:24:24.023996+00:00"
+    },
+    {
+      "code": "ФЭ-014",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Как называется прибор для измерения силы электрического тока?",
+      "options": [
+        "Вольтметр",
+        "Омметр",
+        "Ваттметр",
+        "Амперметр"
+      ],
+      "selected_index": 3,
+      "selected_letter": "Г",
+      "selected_text": "Амперметр",
+      "correct_index": 3,
+      "correct_letter": "Г",
+      "is_correct": true,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:24:32.023996+00:00"
+    },
+    {
+      "code": "ФЭ-010",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Как мокрая древесина обычно проводит электрический ток по сравнению с сухой?",
+      "options": [
+        "Хуже, чем сухая древесина",
+        "Так же, как сухая древесина",
+        "Лучше, чем сухая древесина",
+        "Не проводит электрический ток"
+      ],
+      "selected_index": 1,
+      "selected_letter": "Б",
+      "selected_text": "Так же, как сухая древесина",
+      "correct_index": 2,
+      "correct_letter": "А",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:24:47.023996+00:00"
+    },
+    {
+      "code": "ФЭ-007",
+      "topic": "Физика и электроника",
+      "level": 1,
+      "question": "Как правильно подключить устройство, рассчитанное на постоянное напряжение 9 В, к бытовой электросети 220 В?",
+      "options": [
+        "Подключить напрямую к розетке",
+        "Использовать подходящий блок питания",
+        "Подключить через обычный выключатель",
+        "Использовать стандартный удлинитель"
+      ],
+      "selected_index": 2,
+      "selected_letter": "Г",
+      "selected_text": "Подключить через обычный выключатель",
+      "correct_index": 1,
+      "correct_letter": "В",
+      "is_correct": false,
+      "timed_out": false,
+      "time_limit_seconds": 30,
+      "timestamp": "2026-11-14T04:25:02.023996+00:00"
+    }
+  ],
+  "topic_results": [
+    {
+      "topic": "Компьютерная грамотность",
+      "last_passed_level": 0,
+      "stop_reason": "На уровне 1: 1/3"
+    },
+    {
+      "topic": "Механика и инструменты",
+      "last_passed_level": 0,
+      "stop_reason": "На уровне 1: 0/3"
+    },
+    {
+      "topic": "Технический английский",
+      "last_passed_level": 0,
+      "stop_reason": "На уровне 1: 1/3"
+    },
+    {
+      "topic": "Физика и электроника",
+      "last_passed_level": 0,
+      "stop_reason": "На уровне 1: 1/3"
+    }
+  ],
+  "timeout_count": 4
+}
