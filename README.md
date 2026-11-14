@@ -7,18 +7,18 @@
 Требуется Python 3.9+ с Tkinter. Сторонних зависимостей для запуска нет.
 
 ```powershell
-py FPV_Test.py
+py ProSelect.py
 ```
 
 Выберите тему и режим, введите ФИО или идентификатор кандидата. Интернет не требуется.
 
 ## Текущая архитектура
 
-- `FPV_Test.py`: встроенный банк `QUESTIONS`, интерфейс Tkinter и класс `FPVApp` с логикой сессии и адаптивных переходов.
+- `ProSelect.py`: встроенный банк `QUESTIONS`, интерфейс Tkinter и класс `FPVApp` с логикой сессии и адаптивных переходов.
 - `results_dir()`: каталог результатов рядом со скриптом/EXE, резервный путь `~/FPV-Test/results`.
 - `atomic_json()`: запись JSON через временный файл, сброс на диск и атомарную замену.
 - `write_csv()`: экспорт завершённой сессии в CSV с разделителем `;` и UTF-8 BOM.
-- `README_FPV_Test.txt`: исходная инструкция прототипа.
+- `README_ProSelect.txt`: исходная инструкция прототипа.
 
 Банк содержит 196 вопросов с уникальными кодами: компьютерная грамотность — 52, механика и инструменты — 38, физика и электроника — 57, технический английский — 49. Встроенный экспорт датирован 12.11.2026; актуальность относительно редакционного реестра отдельно не проверялась.
 
@@ -36,7 +36,7 @@ py FPV_Test.py
 
 ```powershell
 py -m pip install pyinstaller
-py -m PyInstaller --noconfirm --clean --onefile --windowed --name ProSelect FPV_Test.py
+py -m PyInstaller --noconfirm --clean --onefile --windowed --name ProSelect ProSelect.py
 ```
 
 Результат: `dist/ProSelect.exe`. PyInstaller требуется только для сборки. Сборка EXE в рамках первоначальной публикации не проверена.
