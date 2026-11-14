@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""FPV-Test — автономное пробное тестирование.
+"""ProSelect — автономное пробное тестирование.
 Запуск: python ProSelect.py (Python 3.9+, стандартная библиотека).
 Все вопросы встроены в код; интернет не используется.
 """
@@ -18,7 +18,7 @@ LETTERS = "АБВГ"
 def results_dir():
     # Portable: рядом со скриптом/EXE. Если нет прав — в домашней папке.
     location = Path(sys.executable if getattr(sys, "frozen", False) else __file__).resolve().parent
-    locations = [location / "results", Path.home() / "FPV-Test" / "results"]
+    locations = [location / "results", Path.home() / "ProSelect" / "results"]
     for candidate in locations:
         try:
             candidate.mkdir(parents=True, exist_ok=True)
@@ -48,7 +48,7 @@ def write_csv(path, obj):
             writer.writerow([obj["session_id"], obj["candidate"], a["timestamp"], a["topic"], a["level"], a["code"], a["question"], a["selected_letter"], a["selected_text"], a["correct_letter"], "Да" if a["is_correct"] else "Нет", obj["mode"]])
 
 
-class FPVApp:
+class ProSelectApp:
     BG = "#111827"
     PANEL = "#1f2937"
     TEXT = "#f3f4f6"
@@ -57,7 +57,7 @@ class FPVApp:
 
     def __init__(self, root):
         self.root = root
-        self.root.title("FPV-Test — пробная версия")
+        self.root.title("ProSelect — пробная версия")
         self.root.geometry("960x720")
         self.root.minsize(760, 580)
         self.root.configure(bg=self.BG)
@@ -100,7 +100,7 @@ class FPVApp:
         self.clear()
         outer = tk.Frame(self.root, bg=self.BG, padx=45, pady=42)
         outer.pack(fill="both", expand=True)
-        self.label(outer, "FPV / ПРОФОТБОР", 13, self.ACCENT, True).pack(anchor="w")
+        self.label(outer, "ProSelect / ПРОФОТБОР", 13, self.ACCENT, True).pack(anchor="w")
         self.label(outer, "Система проверки знаний", 28, bold=True).pack(anchor="w", pady=(12, 5))
         self.label(outer, f"Офлайн · {len(QUESTIONS)} встроенных вопросов · ответы сохраняются локально", 11, self.MUTED).pack(anchor="w", pady=(0, 32))
         self.label(outer, "ФИО или идентификатор кандидата", 12, bold=True).pack(anchor="w")
@@ -168,7 +168,7 @@ class FPVApp:
         random.shuffle(self.display_order)
         main=tk.Frame(self.root,bg=self.BG,padx=45,pady=35)
         main.pack(fill="both",expand=True)
-        self.label(main, "FPV / ПРОФОТБОР", 12, self.ACCENT, True).pack(anchor="w")
+        self.label(main, "ProSelect / ПРОФОТБОР", 12, self.ACCENT, True).pack(anchor="w")
         if self.mode.get().startswith("Все вопросы"):
             progress=f"Вопрос {self.index+1} из {len(self.queue)}"
         else:
@@ -274,5 +274,5 @@ class FPVApp:
 
 if __name__=="__main__":
     root=tk.Tk()
-    FPVApp(root)
+    ProSelectApp(root)
     root.mainloop()
