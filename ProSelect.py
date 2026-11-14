@@ -10,7 +10,7 @@ import tkinter as tk
 from tkinter import messagebox
 from pathlib import Path
 from datetime import datetime, timezone
-import json, csv, random, uuid, sys, os
+import json, random, uuid, sys, os
 
 BANK_SOURCE = "Реестр Профотбор, выгрузка 2026-11-12"
 with Path(__file__).with_name("questions.json").open(encoding="utf-8") as bank_file:
@@ -74,14 +74,6 @@ def atomic_json(path, obj):
         f.flush()
         os.fsync(f.fileno())
     os.replace(temp, path)
-
-
-def write_csv(path, obj):
-    with path.open("w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.writer(f, delimiter=";")
-        writer.writerow(["Сессия", "Кандидат", "Дата", "Тема", "Уровень", "Код", "Вопрос", "Ответ", "Текст ответа", "Правильный ответ", "Верно", "Режим", "Лимит, сек", "Истекло время"])
-        for a in obj["answers"]:
-            writer.writerow([obj["session_id"], obj["candidate"], a["timestamp"], a["topic"], a["level"], a["code"], a["question"], a["selected_letter"], a["selected_text"], a["correct_letter"], "Да" if a["is_correct"] else "Нет", obj["mode"], a.get("time_limit_seconds"), "Да" if a.get("timed_out") else "Нет"])
 
 
 class ProSelectApp:
@@ -324,7 +316,6 @@ class ProSelectApp:
         self.session["status"]="completed"
         self.session["finished_at"]=datetime.now(timezone.utc).isoformat()
         self.save()
-        write_csv(self.filebase.with_suffix(".csv"),self.session)
         self.clear()
         main=tk.Frame(self.root,bg=self.BG,padx=45,pady=55)
         main.pack(fill="both",expand=True)
