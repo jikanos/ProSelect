@@ -23,7 +23,7 @@ py analyzer/ProSelectAnalyzer.py
 
 ```powershell
 py -m pip install pyinstaller
-py -m PyInstaller --noconfirm --onefile --windowed --specpath build --name ProSelectAnalyzer analyzer/ProSelectAnalyzer.py
+py build.py analyzer
 ```
 
 Готовый файл — `dist/ProSelectAnalyzer.exe`.

@@ -11,6 +11,13 @@ from tkinter import filedialog, messagebox, ttk
 ORGANIZATION = "АНО Де-Фриз"
 
 
+version_file = Path(__file__).with_name("build_version.json")
+APP_VERSION = (
+    json.loads(version_file.read_text(encoding="utf-8"))["version"]
+    if version_file.is_file() else "dev"
+)
+
+
 def validate(result):
     if not isinstance(result, dict):
         raise ValueError("Ожидался объект результата")
@@ -472,6 +479,7 @@ class Analyzer:
         self.warning_button = ttk.Button(actions, command=self.show_warnings)
         self.summary = ttk.Label(main, text="Выберите папку с JSON-файлами одной группы.")
         self.summary.pack(anchor="w", pady=(0, 10))
+        ttk.Label(main, text=APP_VERSION).pack(side="bottom", anchor="e", pady=(8, 0))
         self.tabs = ttk.Notebook(main)
         self.tabs.pack(fill="both", expand=True)
 
@@ -543,6 +551,9 @@ class Analyzer:
         status = "Завершён" if result["status"] == "completed" else "Не завершён"
         ttk.Label(main, text=f'{result["candidate"]} · {score(result)} из {len(result["answers"])} · {status}',
                   font=("Segoe UI", 15, "bold")).pack(anchor="w", pady=(0, 10))
+        version = result.get("app_version")
+        version_text = version.strip() if isinstance(version, str) and version.strip() else "Не указана"
+        ttk.Label(main, text=f"Версия ProSelect: {version_text}").pack(anchor="w", pady=(0, 10))
         for index, (headings, rows) in enumerate(student_details(result)):
             table = Table(main, height=min(5, max(2, len(rows))) if index == 0 else 6)
             table.pack(fill="both" if index else "x", expand=bool(index), pady=(0, 8))

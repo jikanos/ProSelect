@@ -4,6 +4,7 @@
 Банк вопросов хранится в локальном файле questions.json.
 """
 import ctypes
+from hashlib import sha256
 from math import ceil
 from time import monotonic
 import tkinter as tk
@@ -15,6 +16,16 @@ import json, random, uuid, sys, os
 BANK_SOURCE = "Реестр Профотбор, выгрузка 2026-11-12"
 with Path(__file__).with_name("questions.json").open(encoding="utf-8") as bank_file:
     QUESTIONS = json.load(bank_file)
+
+BANK_SHA256 = sha256(
+    json.dumps(QUESTIONS, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+).hexdigest()
+
+version_file = Path(__file__).with_name("build_version.json")
+APP_VERSION = (
+    json.loads(version_file.read_text(encoding="utf-8"))["version"]
+    if version_file.is_file() else "dev"
+)
 
 LETTERS = "АБВГ"
 
@@ -128,8 +139,11 @@ class ProSelectApp:
         header = tk.Frame(parent, bg=self.BG)
         header.pack(fill="x")
         tk.Label(header, image=self.logo, bg=self.BG, borderwidth=0).pack(side="right", anchor="n")
-        status = self.label(parent, "", 11, bold=True)
-        status.pack(side="bottom", anchor="w")
+        footer = tk.Frame(parent, bg=self.BG)
+        footer.pack(side="bottom", fill="x")
+        status = self.label(footer, "", 11, bold=True)
+        status.pack(side="left")
+        self.label(footer, APP_VERSION, 10, self.MUTED).pack(side="right")
         self.refresh_connection_status(status)
         return header
 
@@ -168,6 +182,7 @@ class ProSelectApp:
         self.session = {"session_id":str(uuid.uuid4()), "candidate":candidate,
                         "started_at":datetime.now(timezone.utc).isoformat(), "finished_at":None,
                         "status":"in_progress", "mode":"Адаптивный (3 вопроса на уровень)", "topics":self.topics,
+                        "app_version":APP_VERSION, "bank_sha256":BANK_SHA256,
                         "bank_source":BANK_SOURCE, "answers":[], "topic_results":[], "timeout_count":0}
         stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         self.filebase = self.out / (stamp + "_" + self.session["session_id"][:8])

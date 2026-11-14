@@ -40,8 +40,9 @@ Google Sheets «Профотбор», выгрузка 12.11.2026:
 --------------------------
 При наличии Python в Windows выполните:
   py -m pip install pyinstaller
-  py -m PyInstaller --noconfirm --clean --onefile --windowed --add-data "de-friz_logo.png;." --add-data "questions.json;." --name ProSelect ProSelect.py
+  py build.py
 Готовый файл: dist/ProSelect.exe
+Сборка берёт версию из Git. В результатах сохраняются версия программы и SHA-256 банка.
 Папка results будет создаваться при запуске рядом с EXE
 (если есть права на запись).
 
