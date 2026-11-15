@@ -13,7 +13,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 import json, random, uuid, sys, os
 
-BANK_SOURCE = "Реестр Профотбор, выгрузка 2026-11-12"
+BANK_SOURCE = "Реестр Профотбор, выгрузка 2026-11-15"
 with Path(__file__).with_name("questions.json").open(encoding="utf-8") as bank_file:
     QUESTIONS = json.load(bank_file)
 
