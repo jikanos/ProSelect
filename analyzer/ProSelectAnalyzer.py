@@ -3,6 +3,7 @@
 import json
 import tkinter as tk
 from collections import Counter, defaultdict
+from datetime import datetime
 from html import escape
 from pathlib import Path
 from tkinter import filedialog, messagebox, ttk
@@ -65,6 +66,29 @@ def validate(result):
             raise ValueError("Некорректные варианты или отметка ответа")
 
 
+def attempt_duration(result):
+    if result["status"] != "completed":
+        return "—"
+
+    timestamps = (result.get("started_at"), result.get("finished_at"))
+    if not all(isinstance(value, str) for value in timestamps):
+        return "—"
+    try:
+        start, finish = (
+            datetime.fromisoformat(value[:-1] + "+00:00" if value.endswith("Z") else value)
+            for value in timestamps
+        )
+        seconds = (finish - start).total_seconds()
+    except (ValueError, TypeError, OverflowError):
+        return "—"
+
+    if seconds < 0:
+        return "—"
+    hours, remainder = divmod(int(seconds), 3600)
+    minutes, seconds = divmod(remainder, 60)
+    return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+
+
 def score(result):
     return sum(answer["is_correct"] for answer in result["answers"])
 
@@ -125,7 +149,7 @@ def topic_summary(result, topic):
     return label, reason
 
 
-STUDENT_COLUMNS = ("Место", "Студент", "Баллы", "Вопросов", "Тайм-ауты", "Статус")
+STUDENT_COLUMNS = ("Место", "Студент", "Баллы", "Вопросов", "Тайм-ауты", "Статус", "Длительность")
 LEVEL_COLUMNS = ("Тема", "Уровень", "Дошли", "Ответили на все 3", "Прошли", "% от полных")
 QUESTION_COLUMNS = ("Код", "Тема", "Уровень", "Вопрос", "Показов¹", "Верно", "% верных",
                     "Ошибки", "Тайм-ауты", "Частый неверный ответ")
@@ -139,6 +163,7 @@ COLUMN_HINTS = {
     "Вопросов": "Число вопросов с записанным ответом или тайм-аутом.",
     "Тайм-ауты": "Число вопросов, на которые не успели ответить.",
     "Статус": "Завершена ли попытка.",
+    "Длительность": "Время от начала до завершения теста (чч:мм:сс). Прочерк означает, что длительность неизвестна.",
     "Тема": "Тема вопроса или проверяемого уровня.",
     "Уровень": "Уровень сложности от 1 до 5.",
     "Дошли": "Число попыток с хотя бы одной записью на этом уровне.",
@@ -187,6 +212,7 @@ def group_tables(results):
             rank, result["candidate"], points, len(result["answers"]),
             sum(answer["timed_out"] for answer in result["answers"]),
             "Завершён" if result["status"] == "completed" else "Не завершён",
+            attempt_duration(result),
             *(topic_summary(result, topic)[0] for topic in topics),
         ))
         blocks = defaultdict(list)
@@ -286,6 +312,7 @@ def make_report(folder, results, warnings):
     for index, result in enumerate(results):
         parts.append(f'<details id="student-{index}"><summary>{escape(result["candidate"])}'
                      f' · {score(result)} из {len(result["answers"])}</summary>')
+        parts.append(f"<p>Длительность теста: {attempt_duration(result)}</p>")
         parts.extend(html_table(*table) for table in student_details(result))
         parts.append("</details>")
     if warnings:
@@ -306,7 +333,7 @@ def make_report(folder, results, warnings):
 WIDE_COLUMNS = {
     "Студент": 220, "Тема": 240, "Вопрос": 420, "Ответ студента": 220,
     "Правильный ответ": 220, "Частый неверный ответ": 240, "Результат": 300,
-    "Статус": 120, "Пройденный уровень": 145, "Ответили на все 3": 135,
+    "Статус": 120, "Длительность": 120, "Пройденный уровень": 145, "Ответили на все 3": 135,
 }
 
 
@@ -316,6 +343,11 @@ def column_sort_key(value, heading, is_topic):
     if is_topic or heading == "Пройденный уровень":
         level = value.partition(" ")[0]
         return int(level) if level.isdecimal() else None
+    if heading == "Длительность":
+        if value == "—":
+            return None
+        hours, minutes, seconds = map(int, value.split(":"))
+        return hours * 3600 + minutes * 60 + seconds
     if heading in ("% от полных", "% верных"):
         return int(value[:-1]) if value.endswith("%") and value[:-1].isdecimal() else None
     return None if value == "—" else value.casefold()
@@ -553,7 +585,8 @@ class Analyzer:
                   font=("Segoe UI", 15, "bold")).pack(anchor="w", pady=(0, 10))
         version = result.get("app_version")
         version_text = version.strip() if isinstance(version, str) and version.strip() else "Не указана"
-        ttk.Label(main, text=f"Версия ProSelect: {version_text}").pack(anchor="w", pady=(0, 10))
+        ttk.Label(main, text=f"Версия ProSelect: {version_text}").pack(anchor="w")
+        ttk.Label(main, text=f"Длительность теста: {attempt_duration(result)}").pack(anchor="w", pady=(0, 10))
         for index, (headings, rows) in enumerate(student_details(result)):
             table = Table(main, height=min(5, max(2, len(rows))) if index == 0 else 6)
             table.pack(fill="both" if index else "x", expand=bool(index), pady=(0, 8))

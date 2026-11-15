@@ -3,7 +3,10 @@
 Запуск: python ProSelect.py (Python 3.9+, стандартная библиотека).
 Банк вопросов хранится в локальном файле questions.json.
 """
+import ast
 import ctypes
+import operator
+import re
 from hashlib import sha256
 from math import ceil
 from time import monotonic
@@ -28,6 +31,29 @@ APP_VERSION = (
 )
 
 LETTERS = "АБВГ"
+
+
+def calculate(expression):
+    expression = expression.translate(str.maketrans(",×÷−", ".*/-")).strip()
+    if len(expression) > 100 or not re.fullmatch(r"[0-9.+*/()\s-]+", expression):
+        raise ValueError("Invalid expression")
+
+    operations = {ast.Add: operator.add, ast.Sub: operator.sub,
+                  ast.Mult: operator.mul, ast.Div: operator.truediv}
+
+    def evaluate(node):
+        if isinstance(node, ast.Constant) and type(node.value) in (int, float):
+            return node.value
+        if isinstance(node, ast.UnaryOp):
+            if isinstance(node.op, ast.UAdd):
+                return evaluate(node.operand)
+            if isinstance(node.op, ast.USub):
+                return -evaluate(node.operand)
+        if isinstance(node, ast.BinOp) and type(node.op) in operations:
+            return operations[type(node.op)](evaluate(node.left), evaluate(node.right))
+        raise ValueError("Unsupported operation")
+
+    return format(evaluate(ast.parse(expression, mode="eval").body), ".12g").replace(".", ",")
 
 
 def is_online():
@@ -62,10 +88,10 @@ def is_online():
         ole.CoUninitialize()
 
 
-def results_dir():
+def results_dir(folder="results"):
     # Portable: рядом со скриптом/EXE. Если нет прав — в домашней папке.
     location = Path(sys.executable if getattr(sys, "frozen", False) else __file__).resolve().parent
-    locations = [location / "results", Path.home() / "ProSelect" / "results"]
+    locations = [location / folder, Path.home() / "ProSelect" / folder]
     for candidate in locations:
         try:
             candidate.mkdir(parents=True, exist_ok=True)
@@ -94,7 +120,7 @@ class ProSelectApp:
     MUTED = "#9ca3af"
     ACCENT = "#60a5fa"
 
-    def __init__(self, root):
+    def __init__(self, root, result_folder="results"):
         self.root = root
         self.root.title("ProSelect — пробная версия")
         self.root.geometry("960x720")
@@ -102,7 +128,7 @@ class ProSelectApp:
         self.root.configure(bg=self.BG)
         logo_path = Path(__file__).with_name("de-friz_logo.png")
         self.logo = tk.PhotoImage(master=root, file=logo_path)
-        self.out = results_dir()
+        self.out = results_dir(result_folder)
         self.session = None
         self.current = None
         self.question_timer = None
@@ -179,17 +205,23 @@ class ProSelectApp:
         if not candidate:
             messagebox.showwarning("Введите ФИО", "Укажите ФИО кандидата")
             return
+        self.begin_session(candidate, self.topics, "Адаптивный (3 вопроса на уровень)")
+        self.adaptive_topic_idx = 0
+        self.adaptive_level = 1
+        self.next_adaptive_chunk()
+        self.show_current_question()
+
+    def begin_session(self, candidate, topics, mode):
         self.session = {"session_id":str(uuid.uuid4()), "candidate":candidate,
                         "started_at":datetime.now(timezone.utc).isoformat(), "finished_at":None,
-                        "status":"in_progress", "mode":"Адаптивный (3 вопроса на уровень)", "topics":self.topics,
+                        "status":"in_progress", "mode":mode, "topics":topics,
                         "app_version":APP_VERSION, "bank_sha256":BANK_SHA256,
                         "bank_source":BANK_SOURCE, "answers":[], "topic_results":[], "timeout_count":0}
         stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         self.filebase = self.out / (stamp + "_" + self.session["session_id"][:8])
         self.save()
-        self.adaptive_topic_idx = 0
-        self.adaptive_level = 1
-        self.next_adaptive_chunk()
+
+    def show_current_question(self):
         if self.current is None:
             self.finish()
         else:
@@ -228,24 +260,97 @@ class ProSelectApp:
         self.label(progress, str(self.adaptive_level), 11, self.ACCENT, bold=True).pack(side="left", padx=(12, 0))
         timer = self.label(header, self.format_time(q["time_limit_seconds"]), 16, bold=True)
         timer.pack(side="right", anchor="n", padx=(0, 16))
+        self.timer_label = timer
         bottom=tk.Frame(main,bg=self.BG)
-        bottom.pack(side="bottom",fill="x",pady=(20,0))
-        self.button(bottom,"Ответить →",self.submit).pack(side="right")
+        bottom.pack(side="bottom",fill="x",pady=(8,0))
+        self.answer_button = self.button(bottom, "Ответить →", self.submit)
+        self.answer_button.pack(side="right")
         self.answer_hint = self.label(bottom, "Ответ сохраняется после нажатия кнопки", 10, self.MUTED)
         self.answer_hint.pack(side="left")
-        question=tk.Message(main,text=q["text"],width=820,bg=self.BG,fg=self.TEXT,font=("Segoe UI",18,"bold"))
-        question.pack(anchor="w",fill="x",pady=(18,22))
-        choices=tk.Frame(main,bg=self.BG)
-        choices.pack(fill="x")
-        for i, original_index in enumerate(self.display_order):
-            option=q["options"][original_index]
-            row=tk.Radiobutton(choices,text=option,variable=self.selected,value=i,
-                               font=("Segoe UI",12),bg=self.PANEL,fg=self.TEXT,selectcolor="#374151",
-                               activebackground=self.PANEL,activeforeground=self.TEXT,
-                               indicatoron=True,justify="left",anchor="w",wraplength=730,padx=17,pady=12)
-            row.pack(fill="x",pady=4)
+        content = tk.Frame(main, bg=self.BG)
+        content.pack(fill="both", expand=True, pady=(12, 0))
+        has_calculator = q.get("calculator", False)
+        if has_calculator:
+            self.make_calculator(content)
+        if has_calculator:
+            viewport = tk.Frame(content, bg=self.BG)
+            viewport.pack(side="left", fill="both", expand=True)
+            canvas = tk.Canvas(viewport, bg=self.BG, highlightthickness=0, width=1, height=1)
+            scrollbar = tk.Scrollbar(viewport, orient="vertical", command=canvas.yview)
+            def update_scrollbar(first, last):
+                scrollbar.set(first, last)
+                needs_scroll = float(first) > 0 or float(last) < 1
+                if needs_scroll and not scrollbar.winfo_manager():
+                    scrollbar.pack(side="right", fill="y", before=canvas)
+                elif not needs_scroll and scrollbar.winfo_manager():
+                    scrollbar.pack_forget()
 
+            canvas.configure(yscrollcommand=update_scrollbar)
+            canvas.pack(side="left", fill="both", expand=True)
+            task = tk.Frame(canvas, bg=self.BG)
+            task_window = canvas.create_window(0, 0, window=task, anchor="nw")
+            canvas.bind("<Configure>", lambda event: canvas.itemconfigure(task_window, width=event.width))
+            task.bind("<Configure>", lambda event: canvas.configure(scrollregion=canvas.bbox(task_window)))
+        else:
+            task = tk.Frame(content, bg=self.BG)
+            task.pack(side="left", fill="both", expand=True)
+
+        question = tk.Label(task, text=q["text"], bg=self.BG, fg=self.TEXT,
+                            font=("Segoe UI", 14 if has_calculator else 18, "bold"),
+                            justify="left", anchor="w", wraplength=820)
+        question.pack(fill="x", pady=(0, 8))
+        rows = []
+        for i, original_index in enumerate(self.display_order):
+            row = tk.Radiobutton(task, text=q["options"][original_index], variable=self.selected, value=i,
+                                 font=("Segoe UI", 12), bg=self.PANEL, fg=self.TEXT, selectcolor="#374151",
+                                 activebackground=self.PANEL, activeforeground=self.TEXT,
+                                 indicatoron=True, justify="left", anchor="w", wraplength=730,
+                                 padx=17, pady=3 if has_calculator else 12)
+            row.pack(fill="x", pady=2 if has_calculator else 4)
+            rows.append(row)
+            if has_calculator:
+                row.bind("<FocusIn>", lambda event: reveal_answer(event.widget))
+
+        def reveal_answer(row):
+            top = canvas.canvasy(0)
+            bottom = top + canvas.winfo_height()
+            if row.winfo_y() < top or row.winfo_y() + row.winfo_height() > bottom:
+                canvas.yview_moveto(row.winfo_y() / task.winfo_height())
+
+        def wrap_text(event):
+            question.configure(wraplength=max(1, event.width - 8))
+            for row in rows:
+                row.configure(wraplength=max(1, event.width - 66))
+
+        task.bind("<Configure>", wrap_text, add="+")
         self.question_timer = self.root.after_idle(self.start_question_timer, timer, q["time_limit_seconds"])
+
+    def make_calculator(self, parent):
+        panel = tk.Frame(parent, bg=self.PANEL, padx=10, pady=10)
+        panel.pack(side="right", anchor="n", padx=(14, 0))
+        self.label(panel, "Калькулятор", 11, bold=True).pack(anchor="w", pady=(0, 6))
+        entry = tk.Entry(panel, font=("Segoe UI", 13), width=17, justify="right")
+        entry.pack(fill="x")
+        result = self.label(panel, "", 11, self.ACCENT)
+        result.pack(fill="x", pady=(4, 0))
+
+        def show_result(_event=None):
+            try:
+                result.configure(text=calculate(entry.get()))
+            except (ArithmeticError, SyntaxError, ValueError):
+                result.configure(text="Проверьте выражение")
+
+        keys = tk.Frame(panel, bg=self.PANEL)
+        keys.pack(fill="x", pady=(8, 0))
+        for index, symbol in enumerate("789÷456×123−0,+="):
+            command = show_result if symbol == "=" else lambda char=symbol: entry.insert(tk.INSERT, char)
+            tk.Button(keys, text=symbol, width=4, command=command).grid(
+                row=index // 4, column=index % 4, sticky="ew", padx=2, pady=2
+            )
+        tk.Button(keys, text="Очистить", command=lambda: entry.delete(0, tk.END)).grid(
+            row=4, column=0, columnspan=4, sticky="ew", padx=2, pady=2
+        )
+        entry.bind("<Return>", show_result)
 
     @staticmethod
     def format_time(seconds):
@@ -260,7 +365,7 @@ class ProSelectApp:
         self.question_timer = None
         remaining = self.question_deadline - monotonic()
         if remaining <= 0:
-            self.record_answer(None)
+            self.handle_timeout()
             return
 
         seconds = ceil(remaining)
@@ -279,7 +384,7 @@ class ProSelectApp:
         if self.question_deadline is None:
             return
         if monotonic() >= self.question_deadline:
-            self.record_answer(None)
+            self.handle_timeout()
             return
         value = self.selected.get()
         if value < 0:
@@ -287,7 +392,10 @@ class ProSelectApp:
             return
         self.record_answer(value)
 
-    def record_answer(self, value):
+    def handle_timeout(self):
+        self.record_answer(None)
+
+    def record_answer(self, value, *, advance=True):
         self.stop_question_timer()
         q = self.current
         timed_out = value is None
@@ -304,6 +412,14 @@ class ProSelectApp:
         self.session["timeout_count"] += int(timed_out)
         self.session["answers"].append(answer)
         self.save()
+        if advance:
+            self.continue_after_answer()
+
+    def continue_after_answer(self):
+        self.advance_question()
+        self.show_current_question()
+
+    def advance_question(self):
         self.adaptive_chunk_index+=1
         if self.adaptive_chunk_index<3:
             self.current=self.adaptive_chunk[self.adaptive_chunk_index]
@@ -321,8 +437,6 @@ class ProSelectApp:
                 self.adaptive_topic_idx+=1
                 self.adaptive_level=1
             self.next_adaptive_chunk()
-        if self.current is None:self.finish()
-        else:self.show_question()
 
     def save(self):
         atomic_json(self.filebase.with_suffix(".json"),self.session)

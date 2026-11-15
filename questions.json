@@ -11,7 +11,7 @@
       "Backspace"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "КГ-002",
@@ -25,7 +25,7 @@
       "Для подключения компьютера к интернету"
     ],
     "correct": 1,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "КГ-003",
@@ -39,7 +39,7 @@
       "Лупа"
     ],
     "correct": 3,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "КГ-004",
@@ -53,7 +53,7 @@
       "Поиск информации"
     ],
     "correct": 1,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "КГ-005",
@@ -67,7 +67,7 @@
       "Для просмотра открытых документов"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "КГ-006",
@@ -81,7 +81,7 @@
       "Для подтверждения команды или перехода на новую строку"
     ],
     "correct": 3,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "КГ-007",
@@ -95,7 +95,7 @@
       "Клавиатура"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "КГ-008",
@@ -109,7 +109,7 @@
       "Insert"
     ],
     "correct": 1,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "КГ-009",
@@ -123,7 +123,7 @@
       "Для изменения экрана"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "КГ-010",
@@ -137,7 +137,7 @@
       "Для изменения яркости экрана"
     ],
     "correct": 1,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "КГ-011",
@@ -151,7 +151,7 @@
       "Ctrl + C"
     ],
     "correct": 3,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "КГ-012",
@@ -165,7 +165,7 @@
       "Файл автоматически отправится в корзину."
     ],
     "correct": 1,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "КГ-013",
@@ -179,7 +179,7 @@
       "Для перехода в полноэкранный режим"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "КГ-014",
@@ -193,7 +193,7 @@
       "Файл будет находиться в новой папке."
     ],
     "correct": 3,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "КГ-015",
@@ -207,7 +207,7 @@
       "Диспетчер устройств"
     ],
     "correct": 2,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "КГ-016",
@@ -221,7 +221,7 @@
       "Удерживать Tab и щёлкать по нужным файлам"
     ],
     "correct": 1,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "КГ-017",
@@ -235,7 +235,7 @@
       "Для управления учётными записями"
     ],
     "correct": 1,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "КГ-018",
@@ -249,7 +249,7 @@
       "Ctrl + V"
     ],
     "correct": 0,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "КГ-019",
@@ -263,7 +263,7 @@
       "F5"
     ],
     "correct": 1,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "КГ-020",
@@ -277,7 +277,7 @@
       "Панель управления"
     ],
     "correct": 1,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "КГ-021",
@@ -291,7 +291,7 @@
       "Открыть новую вкладку и обновить её содержимое"
     ],
     "correct": 0,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "КГ-022",
@@ -305,7 +305,7 @@
       "Дефрагментация файлов для ускорения доступа к ним."
     ],
     "correct": 1,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "КГ-023",
@@ -319,7 +319,7 @@
       ".ini"
     ],
     "correct": 2,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "КГ-024",
@@ -333,7 +333,7 @@
       "Они будут утрачены после отключения питания."
     ],
     "correct": 3,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "КГ-025",
@@ -347,7 +347,7 @@
       "Точка доступа Wi-Fi без DHCP-сервера"
     ],
     "correct": 1,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "КГ-026",
@@ -361,7 +361,7 @@
       "Увеличится свободное место на системном разделе SSD."
     ],
     "correct": 2,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "КГ-027",
@@ -375,7 +375,7 @@
       "Лучшее распространение сигнала через стены"
     ],
     "correct": 3,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "КГ-028",
@@ -389,7 +389,7 @@
       "Сбросить сетевые настройки Windows."
     ],
     "correct": 1,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "КГ-029",
@@ -403,7 +403,7 @@
       "Флешка отформатирована в ReFS."
     ],
     "correct": 2,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "КГ-030",
@@ -417,7 +417,7 @@
       "Windows преобразует изображение при следующем сохранении."
     ],
     "correct": 2,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "КГ-031",
@@ -431,7 +431,7 @@
       "Компьютеры подключены к разным маршрутизаторам."
     ],
     "correct": 1,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "КГ-032",
@@ -445,7 +445,7 @@
       "chown +r script.sh"
     ],
     "correct": 0,
-    "time_limit_seconds": 85
+    "time_limit_seconds": 95
   },
   {
     "id": "КГ-033",
@@ -459,7 +459,7 @@
       "Не работает сетевой адаптер компьютера."
     ],
     "correct": 0,
-    "time_limit_seconds": 95
+    "time_limit_seconds": 105
   },
   {
     "id": "КГ-034",
@@ -473,7 +473,7 @@
       "DNS-сервер"
     ],
     "correct": 2,
-    "time_limit_seconds": 95
+    "time_limit_seconds": 105
   },
   {
     "id": "КГ-035",
@@ -487,7 +487,7 @@
       "Компьютеры находятся в разных IP-подсетях."
     ],
     "correct": 3,
-    "time_limit_seconds": 85
+    "time_limit_seconds": 95
   },
   {
     "id": "КГ-036",
@@ -501,7 +501,7 @@
       "Некорректные настройки разрешения экрана."
     ],
     "correct": 2,
-    "time_limit_seconds": 95
+    "time_limit_seconds": 105
   },
   {
     "id": "КГ-037",
@@ -515,7 +515,7 @@
       "Сбросить настройки разрешения экрана монитора."
     ],
     "correct": 1,
-    "time_limit_seconds": 95
+    "time_limit_seconds": 105
   },
   {
     "id": "КГ-038",
@@ -529,7 +529,7 @@
       "Накопитель автоматически переключится на интерфейс SATA с меньшей скоростью."
     ],
     "correct": 2,
-    "time_limit_seconds": 85
+    "time_limit_seconds": 95
   },
   {
     "id": "КГ-039",
@@ -543,7 +543,7 @@
       "Файл будет удалён с обоих накопителей массива."
     ],
     "correct": 3,
-    "time_limit_seconds": 85
+    "time_limit_seconds": 95
   },
   {
     "id": "КГ-040",
@@ -557,7 +557,7 @@
       "Виртуальная машина полностью изолируется от сети, включая компьютер-хост."
     ],
     "correct": 1,
-    "time_limit_seconds": 85
+    "time_limit_seconds": 95
   },
   {
     "id": "КГ-041",
@@ -571,7 +571,7 @@
       "Режим загрузки Legacy/CSM."
     ],
     "correct": 1,
-    "time_limit_seconds": 95
+    "time_limit_seconds": 105
   },
   {
     "id": "КГ-042",
@@ -585,7 +585,7 @@
       "Блокировка потоков из-за взаимного ожидания ресурсов (deadlock)."
     ],
     "correct": 2,
-    "time_limit_seconds": 135
+    "time_limit_seconds": 145
   },
   {
     "id": "КГ-043",
@@ -599,7 +599,7 @@
       "Неповторяемое чтение данных (Non-repeatable Read)."
     ],
     "correct": 0,
-    "time_limit_seconds": 135
+    "time_limit_seconds": 145
   },
   {
     "id": "КГ-044",
@@ -613,7 +613,8 @@
       "2 7"
     ],
     "correct": 2,
-    "time_limit_seconds": 150
+    "time_limit_seconds": 160,
+    "calculator": true
   },
   {
     "id": "КГ-045",
@@ -627,7 +628,7 @@
       "Сохранять все полученные сообщения в памяти до завершения программы."
     ],
     "correct": 2,
-    "time_limit_seconds": 125
+    "time_limit_seconds": 135
   },
   {
     "id": "КГ-046",
@@ -641,7 +642,7 @@
       "Сохранение сообщений в буфере перед обработкой."
     ],
     "correct": 2,
-    "time_limit_seconds": 125
+    "time_limit_seconds": 135
   },
   {
     "id": "КГ-047",
@@ -655,7 +656,7 @@
       "Внешний ключ (FOREIGN KEY)"
     ],
     "correct": 3,
-    "time_limit_seconds": 125
+    "time_limit_seconds": 135
   },
   {
     "id": "КГ-048",
@@ -669,7 +670,7 @@
       "Кэширование сведений о свободных местах в приложении."
     ],
     "correct": 1,
-    "time_limit_seconds": 135
+    "time_limit_seconds": 145
   },
   {
     "id": "КГ-049",
@@ -683,7 +684,7 @@
       "Преобразовать файл в текстовый формат перед обработкой."
     ],
     "correct": 2,
-    "time_limit_seconds": 125
+    "time_limit_seconds": 135
   },
   {
     "id": "КГ-050",
@@ -697,7 +698,7 @@
       "Последовательный перебор предварительно отсортированного массива."
     ],
     "correct": 2,
-    "time_limit_seconds": 125
+    "time_limit_seconds": 135
   },
   {
     "id": "КГ-051",
@@ -711,7 +712,7 @@
       "Хранить настройки в оперативной памяти и записывать их в исходный файл при завершении программы."
     ],
     "correct": 1,
-    "time_limit_seconds": 125
+    "time_limit_seconds": 135
   },
   {
     "id": "КГ-053",
@@ -725,7 +726,21 @@
       "Composite (Компоновщик)"
     ],
     "correct": 1,
-    "time_limit_seconds": 125
+    "time_limit_seconds": 135
+  },
+  {
+    "id": "КГ-055",
+    "topic": "Компьютерная грамотность",
+    "level": 1,
+    "text": "Сколько бит содержится в одном байте?",
+    "options": [
+      "4 бита",
+      "8 бит",
+      "16 бит",
+      "32 бита"
+    ],
+    "correct": 1,
+    "time_limit_seconds": 40
   },
   {
     "id": "МИ-001",
@@ -739,7 +754,7 @@
       "В любом направлении вращения"
     ],
     "correct": 0,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "МИ-002",
@@ -753,7 +768,7 @@
       "Отвёртку с насадкой HEX"
     ],
     "correct": 3,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "МИ-003",
@@ -767,7 +782,7 @@
       "Отвёртку со звёздчатым наконечником"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "МИ-004",
@@ -781,7 +796,7 @@
       "Ширину рукоятки ключа в миллиметрах"
     ],
     "correct": 1,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "МИ-005",
@@ -795,7 +810,7 @@
       "Шестигранную биту для винтов"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "МИ-006",
@@ -809,7 +824,7 @@
       "Электрический лобзик"
     ],
     "correct": 0,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "МИ-007",
@@ -823,7 +838,7 @@
       "Шестигранный ключ"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "МИ-008",
@@ -837,7 +852,7 @@
       "Для изоляции соединения проводов"
     ],
     "correct": 3,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "МИ-009",
@@ -851,7 +866,7 @@
       "Двустороннюю монтажную ленту"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "МИ-010",
@@ -865,7 +880,7 @@
       "Для надёжной фиксации насадки в патроне"
     ],
     "correct": 1,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "МИ-011",
@@ -879,7 +894,7 @@
       "Сильно растянуть трубку вдоль соединения"
     ],
     "correct": 2,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "МИ-012",
@@ -893,7 +908,7 @@
       "Режим измерения силы тока (A)"
     ],
     "correct": 2,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "МИ-013",
@@ -907,7 +922,7 @@
       "Компактный инструмент с нагреваемым жалом для пайки"
     ],
     "correct": 2,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "МИ-014",
@@ -921,7 +936,7 @@
       "Для управления скоростью охлаждения готового паяного соединения"
     ],
     "correct": 1,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "МИ-015",
@@ -935,7 +950,7 @@
       "Инструмент для соединения проводов методом пайки"
     ],
     "correct": 0,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "МИ-016",
@@ -949,7 +964,7 @@
       "Для измерения наружных и внутренних размеров деталей"
     ],
     "correct": 3,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "МИ-017",
@@ -963,7 +978,7 @@
       "Развёртку для отверстия, плашку для стержня"
     ],
     "correct": 2,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "МИ-018",
@@ -977,7 +992,7 @@
       "В режиме прозвонки приложить оба щупа к одному концу провода."
     ],
     "correct": 1,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "МИ-019",
@@ -991,7 +1006,7 @@
       "Аккумуляторный предназначен для точных работ, а сетевой — для грубых."
     ],
     "correct": 1,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "МИ-020",
@@ -1005,7 +1020,7 @@
       "Лазерный уровень создаёт общую горизонтальную линию для всех креплений."
     ],
     "correct": 3,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "МИ-021",
@@ -1019,7 +1034,7 @@
       "Увеличить расстояние между электродом и деталью."
     ],
     "correct": 1,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "МИ-022",
@@ -1033,7 +1048,7 @@
       "Проволочную щётку для очистки металла"
     ],
     "correct": 1,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "МИ-023",
@@ -1047,7 +1062,7 @@
       "Прекратить затяжку при первом щелчке ключа, не увеличивая усилие."
     ],
     "correct": 3,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "МИ-024",
@@ -1061,7 +1076,7 @@
       "Нанести более широкую отметку маркером на металл."
     ],
     "correct": 2,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "МИ-025",
@@ -1075,7 +1090,7 @@
       "Сначала уменьшаются, затем возвращаются к исходным."
     ],
     "correct": 0,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "МИ-026",
@@ -1089,7 +1104,7 @@
       "К повышению механической прочности соединения."
     ],
     "correct": 1,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "МИ-027",
@@ -1103,7 +1118,7 @@
       "Слишком большая длина зачищенной части медного провода."
     ],
     "correct": 2,
-    "time_limit_seconds": 95
+    "time_limit_seconds": 105
   },
   {
     "id": "МИ-028",
@@ -1117,7 +1132,7 @@
       "Изменить общее смещение сопла по высоте (Z-offset)."
     ],
     "correct": 2,
-    "time_limit_seconds": 95
+    "time_limit_seconds": 105
   },
   {
     "id": "МИ-029",
@@ -1131,7 +1146,7 @@
       "Нет, поскольку отсутствует система числового управления перемещениями."
     ],
     "correct": 3,
-    "time_limit_seconds": 85
+    "time_limit_seconds": 95
   },
   {
     "id": "МИ-030",
@@ -1145,7 +1160,7 @@
       "Из-за неоднородного состава листа и неровного края реза."
     ],
     "correct": 1,
-    "time_limit_seconds": 85
+    "time_limit_seconds": 95
   },
   {
     "id": "МИ-031",
@@ -1159,7 +1174,7 @@
       "Для расчёта электрических параметров оборудования."
     ],
     "correct": 2,
-    "time_limit_seconds": 85
+    "time_limit_seconds": 95
   },
   {
     "id": "МИ-033",
@@ -1173,7 +1188,7 @@
       "Пена становится жидкой при заполнении глубоких зазоров."
     ],
     "correct": 2,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "МИ-035",
@@ -1187,7 +1202,7 @@
       "Они отличаются типом хвостовика для крепления в шуруповёрте."
     ],
     "correct": 1,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "МИ-036",
@@ -1201,7 +1216,7 @@
       "Использовать шестигранный ключ с шаровым наконечником."
     ],
     "correct": 1,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "МИ-037",
@@ -1215,7 +1230,7 @@
       "Слишком высокая температура поверхности свариваемой детали."
     ],
     "correct": 2,
-    "time_limit_seconds": 95
+    "time_limit_seconds": 105
   },
   {
     "id": "МИ-038",
@@ -1229,7 +1244,7 @@
       "Для подготовки 3D-модели к печати."
     ],
     "correct": 3,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "МИ-039",
@@ -1243,7 +1258,7 @@
       "Уменьшить количество внешних стенок модели."
     ],
     "correct": 1,
-    "time_limit_seconds": 55
+    "time_limit_seconds": 65
   },
   {
     "id": "МИ-040",
@@ -1257,7 +1272,7 @@
       "Увеличить ширину каймы вокруг первого слоя детали."
     ],
     "correct": 2,
-    "time_limit_seconds": 85
+    "time_limit_seconds": 95
   },
   {
     "id": "ФЭ-001",
@@ -1271,7 +1286,7 @@
       "В ваттах"
     ],
     "correct": 1,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-002",
@@ -1285,7 +1300,7 @@
       "В омах"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-003",
@@ -1299,7 +1314,7 @@
       "Направленное движение заряженных частиц"
     ],
     "correct": 3,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-004",
@@ -1313,7 +1328,7 @@
       "Заземляющее соединение"
     ],
     "correct": 1,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-005",
@@ -1327,7 +1342,7 @@
       "Заземляющее соединение"
     ],
     "correct": 0,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-006",
@@ -1341,7 +1356,7 @@
       "Пульсирующий ток"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-007",
@@ -1355,7 +1370,7 @@
       "Использовать стандартный удлинитель"
     ],
     "correct": 1,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-008",
@@ -1369,7 +1384,7 @@
       "Плохо проводит электрический ток"
     ],
     "correct": 3,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-009",
@@ -1383,7 +1398,7 @@
       "Медь и алюминий"
     ],
     "correct": 3,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-010",
@@ -1397,7 +1412,7 @@
       "Не проводит электрический ток"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-011",
@@ -1411,7 +1426,7 @@
       "Чистая медь"
     ],
     "correct": 3,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-012",
@@ -1425,7 +1440,7 @@
       "Для выпрямления переменного тока"
     ],
     "correct": 1,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-013",
@@ -1439,7 +1454,7 @@
       "Преобразование электрической энергии в свет"
     ],
     "correct": 2,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-014",
@@ -1453,7 +1468,7 @@
       "Амперметр"
     ],
     "correct": 3,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-015",
@@ -1467,7 +1482,7 @@
       "Для удаления изоляции с проводов"
     ],
     "correct": 1,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-016",
@@ -1481,7 +1496,7 @@
       "Пульсирующий электрический ток"
     ],
     "correct": 2,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-017",
@@ -1495,7 +1510,7 @@
       "Для питания электрических компонентов"
     ],
     "correct": 3,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-018",
@@ -1509,7 +1524,7 @@
       "Транзистор"
     ],
     "correct": 1,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-019",
@@ -1523,7 +1538,7 @@
       "Пять выводов"
     ],
     "correct": 2,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-020",
@@ -1537,7 +1552,7 @@
       "Покрытие для защиты от влаги"
     ],
     "correct": 2,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-021",
@@ -1551,7 +1566,7 @@
       "Для уменьшения электрического сопротивления провода"
     ],
     "correct": 2,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-022",
@@ -1565,7 +1580,7 @@
       "Бесконечное сопротивление и звуковой сигнал"
     ],
     "correct": 1,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "ФЭ-023",
@@ -1579,7 +1594,7 @@
       "Аккумулятор перейдёт в режим ожидания"
     ],
     "correct": 0,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-024",
@@ -1593,7 +1608,7 @@
       "Звуковая волна в твёрдом теле"
     ],
     "correct": 2,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-025",
@@ -1607,7 +1622,7 @@
       "Диапазон питания радиооборудования"
     ],
     "correct": 1,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-026",
@@ -1621,7 +1636,7 @@
       "Да, при отражении от металлических предметов"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "ФЭ-027",
@@ -1635,7 +1650,7 @@
       "Пропускание тока преимущественно в одном направлении"
     ],
     "correct": 3,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-028",
@@ -1649,7 +1664,7 @@
       "3 000 000 000 м/с"
     ],
     "correct": 2,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-029",
@@ -1663,7 +1678,7 @@
       "Нет, ветер практически не отклоняет радиоволны"
     ],
     "correct": 3,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-030",
@@ -1677,7 +1692,7 @@
       "Источник питания"
     ],
     "correct": 1,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-031",
@@ -1691,7 +1706,7 @@
       "В омах (Ом)"
     ],
     "correct": 0,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-032",
@@ -1705,7 +1720,7 @@
       "Уменьшение в 1000 раз"
     ],
     "correct": 1,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-033",
@@ -1719,7 +1734,7 @@
       "Увеличение в 1000 раз"
     ],
     "correct": 2,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-034",
@@ -1733,7 +1748,7 @@
       "Увеличивается электрическое напряжение на антенне"
     ],
     "correct": 0,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "ФЭ-035",
@@ -1747,7 +1762,7 @@
       "Увеличение в 1 000 000 раз"
     ],
     "correct": 3,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-036",
@@ -1761,7 +1776,8 @@
       "10 000 миллиампер"
     ],
     "correct": 0,
-    "time_limit_seconds": 60
+    "time_limit_seconds": 70,
+    "calculator": true
   },
   {
     "id": "ФЭ-037",
@@ -1775,7 +1791,7 @@
       "Сопротивление кабеля равно одному ому"
     ],
     "correct": 2,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "ФЭ-038",
@@ -1789,7 +1805,8 @@
       "75000 Вт"
     ],
     "correct": 2,
-    "time_limit_seconds": 80
+    "time_limit_seconds": 90,
+    "calculator": true
   },
   {
     "id": "ФЭ-039",
@@ -1803,7 +1820,7 @@
       "Увеличится в четыре раза"
     ],
     "correct": 1,
-    "time_limit_seconds": 80
+    "time_limit_seconds": 90
   },
   {
     "id": "ФЭ-040",
@@ -1817,7 +1834,8 @@
       "4700 Ом"
     ],
     "correct": 3,
-    "time_limit_seconds": 80
+    "time_limit_seconds": 90,
+    "calculator": true
   },
   {
     "id": "ФЭ-041",
@@ -1831,7 +1849,7 @@
       "Из-за прекращения работы антенны за пределами здания"
     ],
     "correct": 0,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "ФЭ-042",
@@ -1845,7 +1863,8 @@
       "580 ГГц"
     ],
     "correct": 1,
-    "time_limit_seconds": 80
+    "time_limit_seconds": 90,
+    "calculator": true
   },
   {
     "id": "ФЭ-043",
@@ -1859,7 +1878,8 @@
       "47 нФ"
     ],
     "correct": 3,
-    "time_limit_seconds": 80
+    "time_limit_seconds": 90,
+    "calculator": true
   },
   {
     "id": "ФЭ-044",
@@ -1873,7 +1893,7 @@
       "Гора изменяет электрическое питание радиостанции"
     ],
     "correct": 2,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "ФЭ-045",
@@ -1887,7 +1907,7 @@
       "Сопротивление изоляции между проводниками"
     ],
     "correct": 1,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "ФЭ-046",
@@ -1901,7 +1921,7 @@
       "Изменяет частоту тока без изменения напряжения."
     ],
     "correct": 1,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "ФЭ-047",
@@ -1915,7 +1935,7 @@
       "Подключить через более толстые провода для защиты электроники."
     ],
     "correct": 2,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "ФЭ-048",
@@ -1929,7 +1949,7 @@
       "Может произойти отключение приёмника от источника питания"
     ],
     "correct": 0,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "ФЭ-049",
@@ -1943,7 +1963,7 @@
       "Зависимость выходного сопротивления от мощности сигнала"
     ],
     "correct": 2,
-    "time_limit_seconds": 95
+    "time_limit_seconds": 105
   },
   {
     "id": "ФЭ-050",
@@ -1957,7 +1977,7 @@
       "На второй частоте чувствительность приёмника обязательно выше"
     ],
     "correct": 1,
-    "time_limit_seconds": 105
+    "time_limit_seconds": 115
   },
   {
     "id": "ФЭ-051",
@@ -1971,7 +1991,7 @@
       "Слишком большое сопротивление входа вольтметра"
     ],
     "correct": 2,
-    "time_limit_seconds": 105
+    "time_limit_seconds": 115
   },
   {
     "id": "ФЭ-052",
@@ -1985,7 +2005,7 @@
       "Увеличится в два раза"
     ],
     "correct": 3,
-    "time_limit_seconds": 95
+    "time_limit_seconds": 105
   },
   {
     "id": "ФЭ-053",
@@ -1999,7 +2019,7 @@
       "Повышенное сопротивление контактов разъёма"
     ],
     "correct": 2,
-    "time_limit_seconds": 105
+    "time_limit_seconds": 115
   },
   {
     "id": "ФЭ-054",
@@ -2013,7 +2033,7 @@
       "Неправильно выбранный диапазон измерения вольтметра"
     ],
     "correct": 1,
-    "time_limit_seconds": 105
+    "time_limit_seconds": 115
   },
   {
     "id": "ФЭ-055",
@@ -2027,7 +2047,7 @@
       "Соответствие сопротивления входного кабеля расчётному"
     ],
     "correct": 0,
-    "time_limit_seconds": 105
+    "time_limit_seconds": 115
   },
   {
     "id": "ФЭ-056",
@@ -2041,7 +2061,7 @@
       "Мультиметр может не успевать фиксировать кратковременные изменения"
     ],
     "correct": 3,
-    "time_limit_seconds": 105
+    "time_limit_seconds": 115
   },
   {
     "id": "ФЭ-057",
@@ -2055,7 +2075,8 @@
       "Около 17 Вт тепловой мощности"
     ],
     "correct": 1,
-    "time_limit_seconds": 120
+    "time_limit_seconds": 130,
+    "calculator": true
   },
   {
     "id": "ТА-001",
@@ -2069,7 +2090,7 @@
       "A device for storing files"
     ],
     "correct": 0,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60
   },
   {
     "id": "ТА-002",
@@ -2083,7 +2104,7 @@
       "Закрыть программу"
     ],
     "correct": 1,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-003",
@@ -2097,7 +2118,7 @@
       "Отменить действие"
     ],
     "correct": 3,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-004",
@@ -2111,7 +2132,7 @@
       "Переименовать выбранный файл"
     ],
     "correct": 1,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-005",
@@ -2125,7 +2146,7 @@
       "Отменить операцию"
     ],
     "correct": 0,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-006",
@@ -2139,7 +2160,7 @@
       "Вернуться на прошлый шаг"
     ],
     "correct": 2,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-007",
@@ -2153,7 +2174,7 @@
       "Сбросить текущие настройки"
     ],
     "correct": 3,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-008",
@@ -2167,7 +2188,7 @@
       "Настроить выбранную функцию"
     ],
     "correct": 1,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-009",
@@ -2181,7 +2202,7 @@
       "Перезапустить выбранную функцию"
     ],
     "correct": 2,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-010",
@@ -2195,7 +2216,7 @@
       "Обновить текущую страницу"
     ],
     "correct": 3,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-011",
@@ -2209,7 +2230,7 @@
       "Сохранить документ в файл"
     ],
     "correct": 1,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-012",
@@ -2223,7 +2244,7 @@
       "Проверить заполненную форму"
     ],
     "correct": 2,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-013",
@@ -2237,7 +2258,7 @@
       "Закрыть текущий документ"
     ],
     "correct": 1,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-014",
@@ -2251,7 +2272,7 @@
       "Изменить настройки программы"
     ],
     "correct": 2,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-015",
@@ -2265,7 +2286,7 @@
       "Скопировать файл на другое устройство"
     ],
     "correct": 1,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-016",
@@ -2279,7 +2300,7 @@
       "Открыть файл для просмотра"
     ],
     "correct": 2,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "ТА-018",
@@ -2293,7 +2314,7 @@
       "Настройки, ожидающие подтверждения"
     ],
     "correct": 2,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60
   },
   {
     "id": "ТА-019",
@@ -2307,7 +2328,7 @@
       "Подключение защищено шифрованием"
     ],
     "correct": 1,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60
   },
   {
     "id": "ТА-020",
@@ -2321,7 +2342,7 @@
       "Недостаточно места для хранения"
     ],
     "correct": 2,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60
   },
   {
     "id": "ТА-021",
@@ -2335,7 +2356,7 @@
       "Необходимо изменить настройки сети"
     ],
     "correct": 0,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60
   },
   {
     "id": "ТА-022",
@@ -2349,7 +2370,7 @@
       "Устройство не распознано компьютером"
     ],
     "correct": 3,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60
   },
   {
     "id": "ТА-023",
@@ -2363,7 +2384,7 @@
       "Файл настроек уже загружен"
     ],
     "correct": 1,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60
   },
   {
     "id": "ТА-024",
@@ -2377,7 +2398,7 @@
       "Требуется придумать пароль"
     ],
     "correct": 1,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60
   },
   {
     "id": "ТА-025",
@@ -2391,7 +2412,7 @@
       "Формат файла не поддерживается программой"
     ],
     "correct": 3,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60
   },
   {
     "id": "ТА-026",
@@ -2405,7 +2426,7 @@
       "Драйвер устройства временно отключён"
     ],
     "correct": 2,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60
   },
   {
     "id": "ТА-027",
@@ -2419,7 +2440,7 @@
       "Сбросить настройки устройства перед обновлением прошивки"
     ],
     "correct": 2,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "ТА-028",
@@ -2433,7 +2454,7 @@
       "Устройство обнаружено, но драйвер отключён"
     ],
     "correct": 0,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "ТА-029",
@@ -2447,7 +2468,7 @@
       "Проверить сетевое подключение и обновить программу"
     ],
     "correct": 0,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "ТА-030",
@@ -2461,7 +2482,7 @@
       "Разместить устройство на ровной поверхности и периодически менять его положение"
     ],
     "correct": 1,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "ТА-031",
@@ -2475,7 +2496,7 @@
       "Сжать файл перед загрузкой"
     ],
     "correct": 3,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "ТА-032",
@@ -2489,7 +2510,7 @@
       "Перезагрузить устройство после подключения внешнего питания"
     ],
     "correct": 1,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "ТА-033",
@@ -2503,7 +2524,7 @@
       "Напряжение аккумулятора ниже рекомендуемого, необходимо зарядить его перед запуском"
     ],
     "correct": 3,
-    "time_limit_seconds": 85
+    "time_limit_seconds": 95
   },
   {
     "id": "ТА-034",
@@ -2517,7 +2538,7 @@
       "Перезапустить передачу данных перед отключением устройства."
     ],
     "correct": 1,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "ТА-035",
@@ -2531,7 +2552,7 @@
       "Резервная копия не создана, поскольку некоторые файлы были недоступны для чтения."
     ],
     "correct": 0,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "ТА-036",
@@ -2545,7 +2566,7 @@
       "Файл сохранён локально, но изменения не будут переданы в облако."
     ],
     "correct": 2,
-    "time_limit_seconds": 80
+    "time_limit_seconds": 90
   },
   {
     "id": "ТА-037",
@@ -2559,7 +2580,7 @@
       "Снять защиту от записи с файла конфигурации перед изменением настроек."
     ],
     "correct": 3,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "ТА-038",
@@ -2573,7 +2594,7 @@
       "Температура превысила заданное значение, поэтому система автоматически увеличила скорость охлаждения."
     ],
     "correct": 1,
-    "time_limit_seconds": 85
+    "time_limit_seconds": 95
   },
   {
     "id": "ТА-039",
@@ -2587,7 +2608,7 @@
       "На Windows 10 без поддержки более новых версий."
     ],
     "correct": 1,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "ТА-040",
@@ -2601,7 +2622,7 @@
       "Выполнить проверку доступных обновлений программы."
     ],
     "correct": 2,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "ТА-042",
@@ -2615,7 +2636,7 @@
       "Перед установкой необходимо полностью удалить предыдущие версии программы, иначе возможны конфликты компонентов."
     ],
     "correct": 3,
-    "time_limit_seconds": 145
+    "time_limit_seconds": 155
   },
   {
     "id": "ТА-043",
@@ -2629,7 +2650,7 @@
       "Если устройство периодически теряет связь, необходимо проверить сетевые настройки и заменить повреждённые кабели передачи данных."
     ],
     "correct": 0,
-    "time_limit_seconds": 145
+    "time_limit_seconds": 155
   },
   {
     "id": "ТА-044",
@@ -2643,7 +2664,7 @@
       "При неисправности вентилятора необходимо перезапустить устройство, чтобы восстановить охлаждение внутренних компонентов."
     ],
     "correct": 2,
-    "time_limit_seconds": 145
+    "time_limit_seconds": 155
   },
   {
     "id": "ТА-045",
@@ -2657,7 +2678,7 @@
       "Перед восстановлением системы необходимо проверить полноту и целостность резервной копии, иначе возможны ошибка восстановления или потеря данных."
     ],
     "correct": 3,
-    "time_limit_seconds": 155
+    "time_limit_seconds": 165
   },
   {
     "id": "ТА-046",
@@ -2671,7 +2692,7 @@
       "Устройство предназначено для работы при температуре от −10 до +50 °C. За пределами диапазона измерения сохраняют точность, пока устройство включено."
     ],
     "correct": 2,
-    "time_limit_seconds": 160
+    "time_limit_seconds": 170
   },
   {
     "id": "ТА-047",
@@ -2685,7 +2706,7 @@
       "Блок питания рассчитан на постоянную нагрузку до 150 Вт. При достижении 200 Вт защита обязательно сработает независимо от продолжительности нагрузки."
     ],
     "correct": 2,
-    "time_limit_seconds": 165
+    "time_limit_seconds": 175
   },
   {
     "id": "ТА-048",
@@ -2699,7 +2720,7 @@
       "Погрешность датчика составляет ±2% от максимального значения, а внешние помехи не влияют на точность измерений."
     ],
     "correct": 1,
-    "time_limit_seconds": 150
+    "time_limit_seconds": 160
   },
   {
     "id": "ТА-049",
@@ -2713,7 +2734,7 @@
       "Ёмкость аккумулятора составляет 5000 мА·ч при высоком токе разряда, но при снижении нагрузки она автоматически уменьшается."
     ],
     "correct": 1,
-    "time_limit_seconds": 155
+    "time_limit_seconds": 165
   },
   {
     "id": "ТА-050",
@@ -2727,7 +2748,7 @@
       "Устройство частично защищено от пыли и выдерживает струи воды высокого давления, но не предназначено для погружения."
     ],
     "correct": 0,
-    "time_limit_seconds": 160
+    "time_limit_seconds": 170
   },
   {
     "id": "ТА-051",
@@ -2741,7 +2762,7 @@
       "Установка требует прав администратора лишь в случае, когда программа уже установлена и необходимо восстановить повреждённые компоненты."
     ],
     "correct": 2,
-    "time_limit_seconds": 155
+    "time_limit_seconds": 165
   },
   {
     "id": "ТА-052",
@@ -2755,7 +2776,7 @@
       "Ошибка датчика высоты — проверить показания барометра"
     ],
     "correct": 0,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "БПЛА-001",
@@ -2769,7 +2790,7 @@
       "Октокоптер"
     ],
     "correct": 2,
-    "time_limit_seconds": 25
+    "time_limit_seconds": 35
   },
   {
     "id": "БПЛА-002",
@@ -2783,7 +2804,7 @@
       "БПЛА аэростатного типа"
     ],
     "correct": 2,
-    "time_limit_seconds": 30
+    "time_limit_seconds": 40
   },
   {
     "id": "БПЛА-003",
@@ -2797,7 +2818,7 @@
       "Начнёт наклоняться в сторону одного двигателя"
     ],
     "correct": 2,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "БПЛА-004",
@@ -2811,7 +2832,7 @@
       "9"
     ],
     "correct": 1,
-    "time_limit_seconds": 25
+    "time_limit_seconds": 35
   },
   {
     "id": "БПЛА-005",
@@ -2825,7 +2846,7 @@
       "Управление по заранее записанному маршруту"
     ],
     "correct": 0,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "БПЛА-006",
@@ -2839,7 +2860,7 @@
       "Поворот корпуса вокруг вертикальной оси"
     ],
     "correct": 3,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "БПЛА-007",
@@ -2853,7 +2874,7 @@
       "Для поддержания постоянной скорости вращения"
     ],
     "correct": 0,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "БПЛА-008",
@@ -2867,7 +2888,7 @@
       "Передаёт изображение с камеры на видеоочки"
     ],
     "correct": 2,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "БПЛА-009",
@@ -2881,7 +2902,7 @@
       "Отсутствием щёточного контактного узла"
     ],
     "correct": 3,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "БПЛА-010",
@@ -2895,7 +2916,7 @@
       "Для оценки высоты по атмосферному давлению"
     ],
     "correct": 3,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "БПЛА-011",
@@ -2909,7 +2930,7 @@
       "Гибридное управление с участием пилота"
     ],
     "correct": 1,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "БПЛА-012",
@@ -2923,7 +2944,7 @@
       "Служит несущей конструкцией для крепления компонентов"
     ],
     "correct": 3,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "БПЛА-013",
@@ -2937,7 +2958,7 @@
       "Загрузку маршрута в память контроллера"
     ],
     "correct": 1,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "БПЛА-014",
@@ -2951,7 +2972,7 @@
       "Передаёт видеоизображение с камеры на наземный приёмник"
     ],
     "correct": 2,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "БПЛА-015",
@@ -2965,7 +2986,7 @@
       "Для отображения полётных данных поверх видео"
     ],
     "correct": 3,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "БПЛА-016",
@@ -2979,7 +3000,8 @@
       "7,7 В"
     ],
     "correct": 0,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60,
+    "calculator": true
   },
   {
     "id": "БПЛА-017",
@@ -2993,7 +3015,8 @@
       "11,1 В и 2200 мА·ч"
     ],
     "correct": 1,
-    "time_limit_seconds": 60
+    "time_limit_seconds": 70,
+    "calculator": true
   },
   {
     "id": "БПЛА-018",
@@ -3007,7 +3030,8 @@
       "920 об/мин"
     ],
     "correct": 2,
-    "time_limit_seconds": 80
+    "time_limit_seconds": 90,
+    "calculator": true
   },
   {
     "id": "БПЛА-019",
@@ -3021,7 +3045,7 @@
       "Плотность уменьшится, тяга винтов уменьшится"
     ],
     "correct": 3,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "БПЛА-020",
@@ -3035,7 +3059,7 @@
       "Системы измерения высоты полёта"
     ],
     "correct": 1,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "БПЛА-021",
@@ -3049,7 +3073,7 @@
       "Видеоприёмник очков и настройку его частоты"
     ],
     "correct": 0,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "БПЛА-022",
@@ -3063,7 +3087,7 @@
       "Изменить коэффициенты PID-регулятора по крену и тангажу"
     ],
     "correct": 2,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "БПЛА-023",
@@ -3077,7 +3101,7 @@
       "Неправильная настройка отсечки напряжения ESC"
     ],
     "correct": 0,
-    "time_limit_seconds": 80
+    "time_limit_seconds": 90
   },
   {
     "id": "БПЛА-024",
@@ -3091,7 +3115,7 @@
       "Видеопередатчик и настройки видеоканала"
     ],
     "correct": 1,
-    "time_limit_seconds": 80
+    "time_limit_seconds": 90
   },
   {
     "id": "БПЛА-025",
@@ -3105,7 +3129,7 @@
       "Заменить установленный видеопередатчик VTX на исправный"
     ],
     "correct": 1,
-    "time_limit_seconds": 85
+    "time_limit_seconds": 95
   },
   {
     "id": "БПЛА-026",
@@ -3119,7 +3143,7 @@
       "В режиме ANGLE работают акселерометр и гироскоп, а в ACRO полётный контроллер не использует гироскоп"
     ],
     "correct": 0,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "БПЛА-027",
@@ -3133,7 +3157,7 @@
       "Аналоговая использует радиоволны, цифровая — исключительно кабельную связь"
     ],
     "correct": 2,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60
   },
   {
     "id": "БПЛА-028",
@@ -3147,7 +3171,7 @@
       "Для определения расстояния до ближайших препятствий"
     ],
     "correct": 1,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "БПЛА-029",
@@ -3161,7 +3185,7 @@
       "Разрешение работы двигателей по командам управления"
     ],
     "correct": 3,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "БПЛА-030",
@@ -3175,7 +3199,7 @@
       "Перемещение корпуса вверх или вниз"
     ],
     "correct": 1,
-    "time_limit_seconds": 35
+    "time_limit_seconds": 45
   },
   {
     "id": "БПЛА-031",
@@ -3189,7 +3213,7 @@
       "Октокоптер с восемью несущими винтами"
     ],
     "correct": 2,
-    "time_limit_seconds": 40
+    "time_limit_seconds": 50
   },
   {
     "id": "БПЛА-032",
@@ -3203,7 +3227,7 @@
       "Квадрокоптер начнёт изменять тангаж вместо крена"
     ],
     "correct": 1,
-    "time_limit_seconds": 45
+    "time_limit_seconds": 55
   },
   {
     "id": "БПЛА-033",
@@ -3217,7 +3241,7 @@
       "Для переключения видеоканала при ухудшении сигнала"
     ],
     "correct": 2,
-    "time_limit_seconds": 50
+    "time_limit_seconds": 60
   },
   {
     "id": "БПЛА-034",
@@ -3231,7 +3255,7 @@
       "Увеличится уровень сигнала за счёт противоположной поляризации"
     ],
     "correct": 2,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "БПЛА-035",
@@ -3245,7 +3269,8 @@
       "150 А"
     ],
     "correct": 3,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85,
+    "calculator": true
   },
   {
     "id": "БПЛА-036",
@@ -3259,7 +3284,7 @@
       "Диаметр одинаковый, шаг меньше, число лопастей больше"
     ],
     "correct": 0,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "БПЛА-037",
@@ -3273,7 +3298,7 @@
       "Скорость передачи данных — 600 кбит/с"
     ],
     "correct": 3,
-    "time_limit_seconds": 65
+    "time_limit_seconds": 75
   },
   {
     "id": "БПЛА-038",
@@ -3287,7 +3312,7 @@
       "Нет, поскольку CRSF используется исключительно в приёмниках ELRS"
     ],
     "correct": 1,
-    "time_limit_seconds": 75
+    "time_limit_seconds": 85
   },
   {
     "id": "БПЛА-039",
@@ -3301,6 +3326,6 @@
       "Показатель RSSI −55 dBm означает, что видеоканал потерял синхронизацию"
     ],
     "correct": 2,
-    "time_limit_seconds": 80
+    "time_limit_seconds": 90
   }
 ]
