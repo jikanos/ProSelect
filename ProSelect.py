@@ -265,7 +265,9 @@ class ProSelectApp:
         bottom.pack(side="bottom",fill="x",pady=(8,0))
         self.answer_button = self.button(bottom, "Ответить →", self.submit)
         self.answer_button.pack(side="right")
-        self.answer_hint = self.label(bottom, "Ответ сохраняется после нажатия кнопки", 10, self.MUTED)
+        self.skip_button = self.button(bottom, "Затрудняюсь ответить", self.skip_answer, primary=False)
+        self.skip_button.pack(side="right", padx=(0, 12))
+        self.answer_hint = self.label(bottom, "Ответ сохраняется после нажатия кнопки", 10, self.MUTED, wrap=240)
         self.answer_hint.pack(side="left")
         content = tk.Frame(main, bg=self.BG)
         content.pack(fill="both", expand=True, pady=(12, 0))
@@ -392,21 +394,29 @@ class ProSelectApp:
             return
         self.record_answer(value)
 
+    def skip_answer(self):
+        if self.question_deadline is None:
+            return
+        if monotonic() >= self.question_deadline:
+            self.handle_timeout()
+            return
+        self.record_answer(None, skipped=True)
+
     def handle_timeout(self):
         self.record_answer(None)
 
-    def record_answer(self, value, *, advance=True):
+    def record_answer(self, value, *, advance=True, skipped=False):
         self.stop_question_timer()
         q = self.current
-        timed_out = value is None
-        original_index = None if timed_out else self.display_order[value]
+        timed_out = value is None and not skipped
+        original_index = None if value is None else self.display_order[value]
         answer = {
             "code": q["id"], "topic": q["topic"], "level": q["level"], "question": q["text"],
             "options": q["options"], "selected_index": original_index,
-            "selected_letter": None if timed_out else LETTERS[value],
-            "selected_text": None if timed_out else q["options"][original_index],
+            "selected_letter": None if value is None else LETTERS[value],
+            "selected_text": None if value is None else q["options"][original_index],
             "correct_index": q["correct"], "correct_letter": LETTERS[self.display_order.index(q["correct"])],
-            "is_correct": original_index == q["correct"], "timed_out": timed_out,
+            "is_correct": original_index == q["correct"], "timed_out": timed_out, "skipped": skipped,
             "time_limit_seconds": q["time_limit_seconds"], "timestamp": datetime.now(timezone.utc).isoformat(),
         }
         self.session["timeout_count"] += int(timed_out)

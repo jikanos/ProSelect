@@ -54,13 +54,16 @@ def validate(result):
         options = answer.get("options")
         correct = answer.get("correct_index")
         selected = answer.get("selected_index")
+        skipped = answer.get("skipped", False)
         if (
             not isinstance(options, list)
             or not all(isinstance(option, str) for option in options)
             or type(correct) is not int
             or not 0 <= correct < len(options)
             or (selected is not None and (type(selected) is not int or not 0 <= selected < len(options)))
-            or answer["timed_out"] != (selected is None)
+            or type(skipped) is not bool
+            or (answer["timed_out"] and skipped)
+            or (answer["timed_out"] or skipped) != (selected is None)
             or answer["is_correct"] != (selected == correct)
         ):
             raise ValueError("Некорректные варианты или отметка ответа")
@@ -125,6 +128,8 @@ def percentage(count, total):
 def outcome(answer):
     if answer["timed_out"]:
         return "Тайм-аут"
+    if answer.get("skipped", False):
+        return "Затруднился ответить"
     return "Верно" if answer["is_correct"] else "Ошибка"
 
 

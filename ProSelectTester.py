@@ -112,6 +112,7 @@ class ProSelectTester(ProSelectApp):
         self.record_answer(None, advance=False)
         self.timer_label.configure(text="00:00", fg="#fca5a5")
         self.answer_hint.configure(text="Время истекло. Продолжите, когда будете готовы.")
+        self.skip_button.configure(state="disabled")
         self.answer_button.configure(text="Продолжить →", command=self.continue_after_answer)
 
     def advance_question(self):
