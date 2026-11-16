@@ -259,7 +259,7 @@ def student_details(result):
     summaries = [(topic, *topic_summary(result, topic)) for topic in topics]
     answers = [
         (answer["topic"], answer["level"], answer["code"], answer["question"],
-         "—" if answer["timed_out"] else answer["options"][answer["selected_index"]],
+         "—" if answer["selected_index"] is None else answer["options"][answer["selected_index"]],
          answer["options"][answer["correct_index"]], outcome(answer))
         for answer in result["answers"]
     ]
