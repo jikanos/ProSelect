@@ -475,7 +475,11 @@ class ProSelectApp:
             self.label(main,"Результат адаптивного прохождения:",12,bold=True).pack(anchor="w",pady=(16,6))
             for item in self.session["topic_results"]:
                 self.label(main,f"{item['topic']}: пройден уровень {item['last_passed_level']} · {item['stop_reason']}",10,self.MUTED).pack(anchor="w")
-        self.button(main,"Новое тестирование",self.make_start).pack(anchor="w")
+        self.button(main,"Новое тестирование",self.restart).pack(anchor="w")
+
+    def restart(self):
+        self.name.set("")
+        self.make_start()
 
     def close(self):
         if self.session and self.session["status"]=="in_progress":
