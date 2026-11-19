@@ -5,6 +5,9 @@ import tkinter as tk
 from tkinter import messagebox, ttk
 
 from ProSelect import QUESTIONS, ProSelectApp
+from CompensationTracker import CompensationTracker
+from MovingObjectReactionV2 import MovingObjectReactionV2
+from TimeWall import TimeWall
 
 
 class ProSelectTester(ProSelectApp):
@@ -53,9 +56,25 @@ class ProSelectTester(ProSelectApp):
         self.mode_picker = ttk.Combobox(page, textvariable=self.test_mode, state="readonly",
                                         values=(self.ADAPTIVE, self.ALL_QUESTIONS))
         self.mode_picker.pack(fill="x")
-        self.start_button = self.button(page, "Начать проверку", self.start)
-        self.start_button.pack(anchor="w", pady=(16, 0))
+        actions = tk.Frame(page, bg=self.BG)
+        actions.pack(anchor="w", pady=(16, 0))
+        self.start_button = self.button(actions, "Начать проверку", self.start)
+        self.start_button.pack(side="left")
+        self.button(actions, "Компенсационный трекер", lambda: self.start_sensorimotor(CompensationTracker),
+                    primary=False).pack(side="left", padx=(12, 0))
+        self.button(actions, "Time Wall", lambda: self.start_sensorimotor(TimeWall),
+                    primary=False).pack(side="left", padx=(12, 0))
+        self.button(page, "Реакция на движущийся объект v2",
+                    lambda: self.start_sensorimotor(MovingObjectReactionV2),
+                    primary=False).pack(anchor="w", pady=(8, 0))
         self.update_questions()
+
+    def start_sensorimotor(self, test):
+        candidate = self.name.get().strip()
+        if not candidate:
+            messagebox.showwarning("Введите ФИО", "Укажите имя тестового участника", parent=self.root)
+            return
+        test(self.root, candidate)
 
     def update_questions(self, _event=None):
         topic = self.test_topic.get()
